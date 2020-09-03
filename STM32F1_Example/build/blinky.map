@@ -1,0 +1,412 @@
+
+Discarded input sections
+
+ .data          0x00000000        0x0 startup_stm32f10x.o
+ .bss           0x00000000        0x0 startup_stm32f10x.o
+ .text          0x00000000        0x0 main.o
+ .data          0x00000000        0x0 main.o
+ .bss           0x00000000        0x0 main.o
+ .bss           0x00000000        0x0 system_stm32f10x.o
+ .data          0x00000000        0x0 stm32f1xx_it.o
+ .bss           0x00000000        0x0 stm32f1xx_it.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM              0x20000000         0x00005000         xrw
+FLASH            0x08000000         0x00020000         xr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD startup_stm32f10x.o
+LOAD main.o
+LOAD system_stm32f10x.o
+LOAD stm32f1xx_it.o
+LOAD /home/huynhtai/Downloads/STM32F103-master/stm32f1_example/stdperiph.a
+LOAD /home/huynhtai/Downloads/TOOLCHAIN/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a
+LOAD /home/huynhtai/Downloads/TOOLCHAIN/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a
+LOAD /home/huynhtai/Downloads/TOOLCHAIN/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libnosys.a
+LOAD /home/huynhtai/Downloads/TOOLCHAIN/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libm.a
+START GROUP
+LOAD /home/huynhtai/Downloads/TOOLCHAIN/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a
+LOAD /home/huynhtai/Downloads/TOOLCHAIN/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a
+END GROUP
+START GROUP
+LOAD /home/huynhtai/Downloads/TOOLCHAIN/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a
+LOAD /home/huynhtai/Downloads/TOOLCHAIN/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a
+END GROUP
+                0x00000100                _Minimum_Stack_Size = 0x100
+                0x20000000                __ram_start__ = ORIGIN (RAM)
+                0x00005000                __ram_size__ = LENGTH (RAM)
+                0x20005000                __ram_end__ = (__ram_start__ + __ram_size__)
+                0x20005000                _estack = __ram_end__
+                [!provide]                PROVIDE (_Stack_Limit, (_estack - _Minimum_Stack_Size))
+
+.text           0x08000000      0x3c8
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x158 startup_stm32f10x.o
+                0x08000000                g_pfnVectors
+ *(.text)
+ .text          0x08000158       0x70 startup_stm32f10x.o
+                0x08000158                EXTI2_IRQHandler
+                0x08000158                TIM1_CC_IRQHandler
+                0x08000158                PVD_IRQHandler
+                0x08000158                EXTI3_IRQHandler
+                0x08000158                EXTI0_IRQHandler
+                0x08000158                I2C2_EV_IRQHandler
+                0x08000158                TIM1_UP_TIM16_IRQHandler
+                0x08000158                SPI1_IRQHandler
+                0x08000158                TIM6_DAC_IRQHandler
+                0x08000158                default_handler
+                0x08000158                DMA2_Channel2_IRQHandler
+                0x08000158                DMA1_Channel4_IRQHandler
+                0x08000158                ADC1_IRQHandler
+                0x08000158                USART3_IRQHandler
+                0x08000158                DMA1_Channel7_IRQHandler
+                0x08000158                UART5_IRQHandler
+                0x08000158                ADC3_IRQHandler
+                0x08000158                TIM4_IRQHandler
+                0x08000158                DMA2_Channel1_IRQHandler
+                0x08000158                I2C1_EV_IRQHandler
+                0x08000158                DMA1_Channel6_IRQHandler
+                0x08000158                UART4_IRQHandler
+                0x08000158                TIM3_IRQHandler
+                0x08000158                RCC_IRQHandler
+                0x08000158                DMA1_Channel1_IRQHandler
+                0x08000158                CEC_IRQHandler
+                0x08000158                EXTI15_10_IRQHandler
+                0x08000158                TIM14_IRQHandler
+                0x08000158                TIM13_IRQHandler
+                0x08000158                TIM12_IRQHandler
+                0x08000158                TIM7_IRQHandler
+                0x08000158                TIM5_IRQHandler
+                0x08000158                EXTI9_5_IRQHandler
+                0x08000158                TAMPER_STAMP_IRQHandler
+                0x08000158                RTC_WKUP_IRQHandler
+                0x08000158                SPI2_IRQHandler
+                0x08000158                DMA2_Channel5_IRQHandler
+                0x08000158                DMA1_Channel5_IRQHandler
+                0x08000158                EXTI4_IRQHandler
+                0x08000158                TIM1_TRG_COM_TIM17_IRQHandler
+                0x08000158                DMA1_Channel3_IRQHandler
+                0x08000158                FSMC_IRQHandler
+                0x08000158                WWDG_IRQHandler
+                0x08000158                TIM2_IRQHandler
+                0x08000158                EXTI1_IRQHandler
+                0x08000158                RTCAlarm_IRQHandler
+                0x08000158                DMA2_Channel4_5_IRQHandler
+                0x08000158                USART2_IRQHandler
+                0x08000158                I2C2_ER_IRQHandler
+                0x08000158                DMA1_Channel2_IRQHandler
+                0x08000158                MemMange_Handler
+                0x08000158                FLASH_IRQHandler
+                0x08000158                USART1_IRQHandler
+                0x08000158                SPI3_IRQHandler
+                0x08000158                I2C1_ER_IRQHandler
+                0x08000158                DMA2_Channel3_IRQHandler
+                0x08000158                TIM1_BRK_TIM15_IRQHandler
+                0x0800015c                __libc_init_array
+                0x08000160                Reset_Handler
+ .text          0x080001c8      0x1d8 system_stm32f10x.o
+                0x080001c8                SystemInit
+                0x08000300                SystemCoreClockUpdate
+ .text          0x080003a0       0x24 stm32f1xx_it.o
+                0x080003a0                NMI_Handler
+                0x080003a4                HardFault_Handler
+                0x080003a8                MemManage_Handler
+                0x080003ac                BusFault_Handler
+                0x080003b0                UsageFault_Handler
+                0x080003b4                SVC_Handler
+                0x080003b8                DebugMon_Handler
+                0x080003bc                PendSV_Handler
+                0x080003c0                SysTick_Handler
+ *(.text.*)
+ .text.startup  0x080003c4        0x4 main.o
+                0x080003c4                main
+ *(.rodata)
+ *(.rodata.*)
+ *(.glue_7)
+ .glue_7        0x080003c8        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x080003c8        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x080003c8        0x0 linker stubs
+ *(.v4_bx)
+ .v4_bx         0x080003c8        0x0 linker stubs
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.iplt           0x080003c8        0x0
+ .iplt          0x080003c8        0x0 startup_stm32f10x.o
+
+.rel.dyn        0x080003c8        0x0
+ .rel.iplt      0x080003c8        0x0 startup_stm32f10x.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x080003c8                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x080003c8                __exidx_end = .
+                0x080003c8                . = ALIGN (0x4)
+                0x080003c8                _etext = .
+                0x080003c8                _sidata = _etext
+
+.data           0x20000000       0x14 load address 0x080003c8
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _sdata = .
+ *(.data)
+ .data          0x20000000       0x14 system_stm32f10x.o
+                0x20000000                AHBPrescTable
+                0x20000010                SystemCoreClock
+ *(.data.*)
+                0x20000014                . = ALIGN (0x4)
+                0x20000014                _edata = .
+
+.igot.plt       0x20000014        0x0 load address 0x080003dc
+ .igot.plt      0x20000014        0x0 startup_stm32f10x.o
+
+.bss            0x20000014        0x0
+                0x20000014                . = ALIGN (0x4)
+                0x20000014                _sbss = .
+                0x20000014                __bss_start__ = _sbss
+ *(.bss)
+ *(.bss.*)
+ *(COMMON)
+                0x20000014                . = ALIGN (0x4)
+                0x20000014                _ebss = .
+                0x20000014                __bss_end__ = _ebss
+                [!provide]                PROVIDE (end, _ebss)
+                [!provide]                PROVIDE (_end, _ebss)
+                [!provide]                PROVIDE (_exit, _ebss)
+                [!provide]                PROVIDE (_stackend, ((ORIGIN (RAM) + LENGTH (RAM)) - _Minimum_Stack_Size))
+
+._usrstack      0x20000014      0x100 load address 0x080003dc
+                0x20000014                . = ALIGN (0x4)
+                0x20000014                _susrstack = .
+                0x20000114                . = (. + _Minimum_Stack_Size)
+ *fill*         0x20000014      0x100 
+                0x20000114                . = ALIGN (0x4)
+                0x20000114                _eusrstack = .
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x6e
+ *(.comment)
+ .comment       0x00000000       0x6e startup_stm32f10x.o
+                                 0x6f (size before relaxing)
+ .comment       0x0000006e       0x6f main.o
+ .comment       0x0000006e       0x6f system_stm32f10x.o
+ .comment       0x0000006e       0x6f stm32f1xx_it.o
+
+.ARM.attributes
+                0x00000000       0x33
+ .ARM.attributes
+                0x00000000       0x33 startup_stm32f10x.o
+ .ARM.attributes
+                0x00000033       0x33 main.o
+ .ARM.attributes
+                0x00000066       0x33 system_stm32f10x.o
+ .ARM.attributes
+                0x00000099       0x33 stm32f1xx_it.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x80
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 startup_stm32f10x.o
+ .debug_aranges
+                0x00000020       0x20 main.o
+ .debug_aranges
+                0x00000040       0x20 system_stm32f10x.o
+ .debug_aranges
+                0x00000060       0x20 stm32f1xx_it.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0x7e2
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x190 startup_stm32f10x.o
+ .debug_info    0x00000190       0xaf main.o
+ .debug_info    0x0000023f      0x522 system_stm32f10x.o
+ .debug_info    0x00000761       0x81 stm32f1xx_it.o
+
+.debug_abbrev   0x00000000      0x33c
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x115 startup_stm32f10x.o
+ .debug_abbrev  0x00000115       0x67 main.o
+ .debug_abbrev  0x0000017c      0x170 system_stm32f10x.o
+ .debug_abbrev  0x000002ec       0x50 stm32f1xx_it.o
+
+.debug_line     0x00000000      0x586
+ *(.debug_line)
+ .debug_line    0x00000000      0x1c8 startup_stm32f10x.o
+ .debug_line    0x000001c8      0x15a main.o
+ .debug_line    0x00000322      0x21a system_stm32f10x.o
+ .debug_line    0x0000053c       0x4a stm32f1xx_it.o
+
+.debug_frame    0x00000000      0x15c
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x48 startup_stm32f10x.o
+ .debug_frame   0x00000048       0x20 main.o
+ .debug_frame   0x00000068       0x54 system_stm32f10x.o
+ .debug_frame   0x000000bc       0xa0 stm32f1xx_it.o
+
+.debug_str      0x00000000      0x3c4
+ *(.debug_str)
+ .debug_str     0x00000000      0x1a0 startup_stm32f10x.o
+                                0x1dc (size before relaxing)
+ .debug_str     0x000001a0        0x7 main.o
+                                0x165 (size before relaxing)
+ .debug_str     0x000001a7      0x1b6 system_stm32f10x.o
+                                0x339 (size before relaxing)
+ .debug_str     0x0000035d       0x67 stm32f1xx_it.o
+                                0x114 (size before relaxing)
+
+.debug_loc      0x00000000      0x212
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x3e startup_stm32f10x.o
+ .debug_loc     0x0000003e      0x1d4 system_stm32f10x.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+OUTPUT(/home/huynhtai/Downloads/STM32F103-master/stm32f1_example/build/blinky.elf elf32-littlearm)
+
+.debug_ranges   0x00000000       0x30
+ .debug_ranges  0x00000000       0x10 main.o
+ .debug_ranges  0x00000010       0x20 system_stm32f10x.o
+
+Cross Reference Table
+
+Symbol                                            File
+ADC1_IRQHandler                                   startup_stm32f10x.o
+ADC3_IRQHandler                                   startup_stm32f10x.o
+AHBPrescTable                                     system_stm32f10x.o
+BusFault_Handler                                  stm32f1xx_it.o
+                                                  startup_stm32f10x.o
+CEC_IRQHandler                                    startup_stm32f10x.o
+DMA1_Channel1_IRQHandler                          startup_stm32f10x.o
+DMA1_Channel2_IRQHandler                          startup_stm32f10x.o
+DMA1_Channel3_IRQHandler                          startup_stm32f10x.o
+DMA1_Channel4_IRQHandler                          startup_stm32f10x.o
+DMA1_Channel5_IRQHandler                          startup_stm32f10x.o
+DMA1_Channel6_IRQHandler                          startup_stm32f10x.o
+DMA1_Channel7_IRQHandler                          startup_stm32f10x.o
+DMA2_Channel1_IRQHandler                          startup_stm32f10x.o
+DMA2_Channel2_IRQHandler                          startup_stm32f10x.o
+DMA2_Channel3_IRQHandler                          startup_stm32f10x.o
+DMA2_Channel4_5_IRQHandler                        startup_stm32f10x.o
+DMA2_Channel5_IRQHandler                          startup_stm32f10x.o
+DebugMon_Handler                                  stm32f1xx_it.o
+                                                  startup_stm32f10x.o
+EXTI0_IRQHandler                                  startup_stm32f10x.o
+EXTI15_10_IRQHandler                              startup_stm32f10x.o
+EXTI1_IRQHandler                                  startup_stm32f10x.o
+EXTI2_IRQHandler                                  startup_stm32f10x.o
+EXTI3_IRQHandler                                  startup_stm32f10x.o
+EXTI4_IRQHandler                                  startup_stm32f10x.o
+EXTI9_5_IRQHandler                                startup_stm32f10x.o
+FLASH_IRQHandler                                  startup_stm32f10x.o
+FSMC_IRQHandler                                   startup_stm32f10x.o
+HardFault_Handler                                 stm32f1xx_it.o
+                                                  startup_stm32f10x.o
+I2C1_ER_IRQHandler                                startup_stm32f10x.o
+I2C1_EV_IRQHandler                                startup_stm32f10x.o
+I2C2_ER_IRQHandler                                startup_stm32f10x.o
+I2C2_EV_IRQHandler                                startup_stm32f10x.o
+MemManage_Handler                                 stm32f1xx_it.o
+MemMange_Handler                                  startup_stm32f10x.o
+NMI_Handler                                       stm32f1xx_it.o
+                                                  startup_stm32f10x.o
+PVD_IRQHandler                                    startup_stm32f10x.o
+PendSV_Handler                                    stm32f1xx_it.o
+                                                  startup_stm32f10x.o
+RCC_IRQHandler                                    startup_stm32f10x.o
+RTCAlarm_IRQHandler                               startup_stm32f10x.o
+RTC_WKUP_IRQHandler                               startup_stm32f10x.o
+Reset_Handler                                     startup_stm32f10x.o
+SPI1_IRQHandler                                   startup_stm32f10x.o
+SPI2_IRQHandler                                   startup_stm32f10x.o
+SPI3_IRQHandler                                   startup_stm32f10x.o
+SVC_Handler                                       stm32f1xx_it.o
+                                                  startup_stm32f10x.o
+SysTick_Handler                                   stm32f1xx_it.o
+                                                  startup_stm32f10x.o
+SystemCoreClock                                   system_stm32f10x.o
+SystemCoreClockUpdate                             system_stm32f10x.o
+SystemInit                                        system_stm32f10x.o
+                                                  startup_stm32f10x.o
+TAMPER_STAMP_IRQHandler                           startup_stm32f10x.o
+TIM12_IRQHandler                                  startup_stm32f10x.o
+TIM13_IRQHandler                                  startup_stm32f10x.o
+TIM14_IRQHandler                                  startup_stm32f10x.o
+TIM1_BRK_TIM15_IRQHandler                         startup_stm32f10x.o
+TIM1_CC_IRQHandler                                startup_stm32f10x.o
+TIM1_TRG_COM_TIM17_IRQHandler                     startup_stm32f10x.o
+TIM1_UP_TIM16_IRQHandler                          startup_stm32f10x.o
+TIM2_IRQHandler                                   startup_stm32f10x.o
+TIM3_IRQHandler                                   startup_stm32f10x.o
+TIM4_IRQHandler                                   startup_stm32f10x.o
+TIM5_IRQHandler                                   startup_stm32f10x.o
+TIM6_DAC_IRQHandler                               startup_stm32f10x.o
+TIM7_IRQHandler                                   startup_stm32f10x.o
+UART4_IRQHandler                                  startup_stm32f10x.o
+UART5_IRQHandler                                  startup_stm32f10x.o
+USART1_IRQHandler                                 startup_stm32f10x.o
+USART2_IRQHandler                                 startup_stm32f10x.o
+USART3_IRQHandler                                 startup_stm32f10x.o
+UsageFault_Handler                                stm32f1xx_it.o
+                                                  startup_stm32f10x.o
+WWDG_IRQHandler                                   startup_stm32f10x.o
+__libc_init_array                                 startup_stm32f10x.o
+_ebss                                             startup_stm32f10x.o
+_edata                                            startup_stm32f10x.o
+_estack                                           startup_stm32f10x.o
+_sbss                                             startup_stm32f10x.o
+_sdata                                            startup_stm32f10x.o
+_sidata                                           startup_stm32f10x.o
+default_handler                                   startup_stm32f10x.o
+g_pfnVectors                                      startup_stm32f10x.o
+main                                              main.o
+                                                  startup_stm32f10x.o

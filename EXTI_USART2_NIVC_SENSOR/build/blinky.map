@@ -1,0 +1,1262 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_gpio.o)
+                              main.o (GPIO_Init)
+/home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(misc.o)
+                              main.o (NVIC_Init)
+/home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+                              main.o (USART_DeInit)
+/home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_exti.o)
+                              main.o (EXTI_Init)
+/home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+                              main.o (RTC_StructInit)
+/home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_pwr.o)
+                              main.o (PWR_DeInit)
+/home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+                              main.o (RCC_LSICmd)
+/home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_syscfg.o)
+                              main.o (SYSCFG_EXTILineConfig)
+/home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+                              main.o (TIM_DeInit)
+
+Allocating common symbols
+Common symbol       size              file
+
+A                   0xc               main.o
+distance            0x2               main.o
+c                   0x1               main.o
+GET_TIME            0x4               main.o
+msTicks             0x4               main.o
+
+Discarded input sections
+
+ .data          0x00000000        0x0 startup_stm32f4xx.o
+ .bss           0x00000000        0x0 startup_stm32f4xx.o
+ .data          0x00000000        0x0 stm32f4xx_it.o
+ .bss           0x00000000        0x0 stm32f4xx_it.o
+ .bss           0x00000000        0x0 system_stm32f4xx.o
+ .text          0x00000000       0x18 CortexM4asmOps.o
+ .data          0x00000000        0x0 CortexM4asmOps.o
+ .bss           0x00000000        0x0 CortexM4asmOps.o
+ .ARM.attributes
+                0x00000000       0x14 CortexM4asmOps.o
+ .data          0x00000000        0x0 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_gpio.o)
+ .bss           0x00000000        0x0 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_gpio.o)
+ .data          0x00000000        0x0 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(misc.o)
+ .bss           0x00000000        0x0 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(misc.o)
+ .data          0x00000000        0x0 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+ .bss           0x00000000        0x0 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+ .data          0x00000000        0x0 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_exti.o)
+ .bss           0x00000000        0x0 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_exti.o)
+ .data          0x00000000        0x0 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+ .bss           0x00000000        0x0 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+ .data          0x00000000        0x0 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_pwr.o)
+ .bss           0x00000000        0x0 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_pwr.o)
+ .bss           0x00000000        0x0 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+ .data          0x00000000        0x0 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_syscfg.o)
+ .bss           0x00000000        0x0 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_syscfg.o)
+ .data          0x00000000        0x0 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+ .bss           0x00000000        0x0 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00080000         xr
+RAM              0x20000000         0x00020000         xrw
+CCM              0x10000000         0x00010000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD startup_stm32f4xx.o
+LOAD main.o
+LOAD stm32f4xx_it.o
+LOAD system_stm32f4xx.o
+LOAD CortexM4asmOps.o
+LOAD /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a
+LOAD /home/huynhtai/Downloads/TOOLCHAIN/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libc_nano.a
+LOAD /home/huynhtai/Downloads/TOOLCHAIN/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a
+LOAD /home/huynhtai/Downloads/TOOLCHAIN/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libnosys.a
+LOAD /home/huynhtai/Downloads/TOOLCHAIN/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libm.a
+START GROUP
+LOAD /home/huynhtai/Downloads/TOOLCHAIN/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a
+LOAD /home/huynhtai/Downloads/TOOLCHAIN/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libc_nano.a
+END GROUP
+START GROUP
+LOAD /home/huynhtai/Downloads/TOOLCHAIN/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a
+LOAD /home/huynhtai/Downloads/TOOLCHAIN/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libc_nano.a
+END GROUP
+                0x20020000                _estack = 0x20020000
+                0x00002000                _Min_Heap_Size = 0x2000
+                0x00004000                _Min_Stack_Size = 0x4000
+
+.isr_vector     0x08000000      0x188
+                0x08000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x188 startup_stm32f4xx.o
+                0x08000000                g_pfnVectors
+                0x08000188                . = ALIGN (0x4)
+
+.text           0x08000188     0x3318
+                0x08000188                . = ALIGN (0x4)
+ *(.text)
+ .text          0x08000188       0x74 startup_stm32f4xx.o
+                0x08000188                HASH_RNG_IRQHandler
+                0x08000188                EXTI2_IRQHandler
+                0x08000188                TIM8_CC_IRQHandler
+                0x08000188                DebugMon_Handler
+                0x08000188                TIM1_CC_IRQHandler
+                0x08000188                DMA2_Stream5_IRQHandler
+                0x08000188                DMA1_Stream5_IRQHandler
+                0x08000188                SysTick_Handler
+                0x08000188                PVD_IRQHandler
+                0x08000188                SDIO_IRQHandler
+                0x08000188                TAMP_STAMP_IRQHandler
+                0x08000188                PendSV_Handler
+                0x08000188                CAN2_RX1_IRQHandler
+                0x08000188                EXTI3_IRQHandler
+                0x08000188                TIM8_TRG_COM_TIM14_IRQHandler
+                0x08000188                TIM8_UP_TIM13_IRQHandler
+                0x08000188                I2C3_ER_IRQHandler
+                0x08000188                I2C2_EV_IRQHandler
+                0x08000188                DMA1_Stream2_IRQHandler
+                0x08000188                CAN1_RX0_IRQHandler
+                0x08000188                FPU_IRQHandler
+                0x08000188                OTG_HS_WKUP_IRQHandler
+                0x08000188                UsageFault_Handler
+                0x08000188                CAN2_SCE_IRQHandler
+                0x08000188                DMA2_Stream2_IRQHandler
+                0x08000188                SPI1_IRQHandler
+                0x08000188                TIM6_DAC_IRQHandler
+                0x08000188                TIM1_BRK_TIM9_IRQHandler
+                0x08000188                DCMI_IRQHandler
+                0x08000188                CAN2_RX0_IRQHandler
+                0x08000188                DMA2_Stream3_IRQHandler
+                0x08000188                USART6_IRQHandler
+                0x08000188                USART3_IRQHandler
+                0x08000188                CRYP_IRQHandler
+                0x08000188                CAN1_RX1_IRQHandler
+                0x08000188                UART5_IRQHandler
+                0x08000188                DMA2_Stream0_IRQHandler
+                0x08000188                TIM4_IRQHandler
+                0x08000188                I2C1_EV_IRQHandler
+                0x08000188                DMA1_Stream6_IRQHandler
+                0x08000188                DMA1_Stream1_IRQHandler
+                0x08000188                UART4_IRQHandler
+                0x08000188                TIM3_IRQHandler
+                0x08000188                RCC_IRQHandler
+                0x08000188                TIM8_BRK_TIM12_IRQHandler
+                0x08000188                Default_Handler
+                0x08000188                EXTI15_10_IRQHandler
+                0x08000188                ADC_IRQHandler
+                0x08000188                DMA1_Stream7_IRQHandler
+                0x08000188                TIM7_IRQHandler
+                0x08000188                CAN2_TX_IRQHandler
+                0x08000188                TIM5_IRQHandler
+                0x08000188                DMA2_Stream7_IRQHandler
+                0x08000188                I2C3_EV_IRQHandler
+                0x08000188                EXTI9_5_IRQHandler
+                0x08000188                ETH_WKUP_IRQHandler
+                0x08000188                SPI2_IRQHandler
+                0x08000188                OTG_HS_EP1_IN_IRQHandler
+                0x08000188                MemManage_Handler
+                0x08000188                DMA1_Stream0_IRQHandler
+                0x08000188                CAN1_TX_IRQHandler
+                0x08000188                SVC_Handler
+                0x08000188                EXTI4_IRQHandler
+                0x08000188                FSMC_IRQHandler
+                0x08000188                ETH_IRQHandler
+                0x08000188                OTG_HS_EP1_OUT_IRQHandler
+                0x08000188                WWDG_IRQHandler
+                0x08000188                TIM2_IRQHandler
+                0x08000188                OTG_FS_WKUP_IRQHandler
+                0x08000188                TIM1_TRG_COM_TIM11_IRQHandler
+                0x08000188                OTG_HS_IRQHandler
+                0x08000188                EXTI1_IRQHandler
+                0x08000188                I2C2_ER_IRQHandler
+                0x08000188                DMA2_Stream1_IRQHandler
+                0x08000188                CAN1_SCE_IRQHandler
+                0x08000188                FLASH_IRQHandler
+                0x08000188                DMA2_Stream4_IRQHandler
+                0x08000188                BusFault_Handler
+                0x08000188                USART1_IRQHandler
+                0x08000188                OTG_FS_IRQHandler
+                0x08000188                SPI3_IRQHandler
+                0x08000188                DMA1_Stream4_IRQHandler
+                0x08000188                I2C1_ER_IRQHandler
+                0x08000188                DMA2_Stream6_IRQHandler
+                0x08000188                DMA1_Stream3_IRQHandler
+                0x0800018c                Reset_Handler
+ .text          0x080001fc      0x4f4 main.o
+                0x080001fc                delay
+                0x08000214                init_GPIO
+                0x08000570                GET_TIME_UART
+                0x08000610                GET_DISTANCE_USART
+                0x08000674                EXTI0_IRQHandler
+ .text          0x080006f0      0x108 stm32f4xx_it.o
+                0x080006f0                NMI_Handler
+                0x080006f4                HardFault_Handler
+                0x08000714                USART2_IRQHandler
+                0x08000738                RTC_WKUP_IRQHandler
+                0x0800075c                TIM1_UP_TIM10_IRQHandler
+                0x080007a0                RTC_Alarm_IRQHandler
+ .text          0x080007f8      0x164 system_stm32f4xx.o
+                0x080007f8                SystemInit
+                0x080008e8                SystemCoreClockUpdate
+ .text          0x0800095c      0x2a8 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_gpio.o)
+                0x0800095c                GPIO_DeInit
+                0x08000ab8                GPIO_Init
+                0x08000b5c                GPIO_StructInit
+                0x08000b70                GPIO_PinLockConfig
+                0x08000b94                GPIO_ReadInputDataBit
+                0x08000ba0                GPIO_ReadInputData
+                0x08000ba8                GPIO_ReadOutputDataBit
+                0x08000bb4                GPIO_ReadOutputData
+                0x08000bbc                GPIO_SetBits
+                0x08000bc0                GPIO_ResetBits
+                0x08000bc4                GPIO_WriteBit
+                0x08000bd0                GPIO_Write
+                0x08000bd4                GPIO_ToggleBits
+                0x08000bdc                GPIO_PinAFConfig
+ .text          0x08000c04       0xbc /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(misc.o)
+                0x08000c04                NVIC_PriorityGroupConfig
+                0x08000c18                NVIC_Init
+                0x08000c7c                NVIC_SetVectorTable
+                0x08000c90                NVIC_SystemLPConfig
+                0x08000ca8                SysTick_CLKSourceConfig
+ .text          0x08000cc0      0x4a4 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+                0x08000cc0                USART_DeInit
+                0x08000dcc                USART_Init
+                0x08000e90                USART_StructInit
+                0x08000ea8                USART_ClockInit
+                0x08000ecc                USART_ClockStructInit
+                0x08000ed8                USART_Cmd
+                0x08000ef4                USART_SetPrescaler
+                0x08000f08                USART_OverSampling8Cmd
+                0x08000f24                USART_OneBitMethodCmd
+                0x08000f40                USART_SendData
+                0x08000f58                USART_SendString
+                0x08000f7c                USART_ReceiveData
+                0x08000f84                USART_SetAddress
+                0x08000f9c                USART_ReceiverWakeUpCmd
+                0x08000fb8                USART_WakeUpConfig
+                0x08000fd0                USART_LINBreakDetectLengthConfig
+                0x08000fe8                USART_LINCmd
+                0x08001004                USART_SendBreak
+                0x08001010                USART_HalfDuplexCmd
+                0x0800102c                USART_SetGuardTime
+                0x08001040                USART_SmartCardCmd
+                0x0800105c                USART_SmartCardNACKCmd
+                0x08001078                USART_IrDAConfig
+                0x08001090                USART_IrDACmd
+                0x080010ac                USART_DMACmd
+                0x080010c0                USART_ITConfig
+                0x080010f8                USART_GetFlagStatus
+                0x08001104                USART_ClearFlag
+                0x0800110c                USART_GetITStatus
+                0x08001154                USART_ClearITPendingBit
+ .text          0x08001164       0xe8 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_exti.o)
+                0x08001164                EXTI_DeInit
+                0x08001180                EXTI_Init
+                0x080011fc                EXTI_StructInit
+                0x0800120c                EXTI_GenerateSWInterrupt
+                0x0800121c                EXTI_ClearFlag
+                0x08001228                EXTI_GetITStatus
+                0x0800123c                EXTI_GetFlagStatus
+                0x08001240                EXTI_ClearITPendingBit
+ .text          0x0800124c      0xcb0 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+                0x0800124c                RTC_StructInit
+                0x08001258                RTC_WriteProtectionCmd
+                0x08001270                RTC_EnterInitMode
+                0x080012b4                RTC_Init
+                0x080012fc                RTC_ExitInitMode
+                0x0800130c                RTC_WaitForSynchro
+                0x08001350                RTC_DeInit
+                0x080013dc                RTC_RefClockCmd
+                0x0800141c                RTC_BypassShadowCmd
+                0x0800144c                RTC_SetTime
+                0x08001540                RTC_TimeStructInit
+                0x08001558                RTC_GetTime
+                0x080015b8                RTC_GetSubSecond
+                0x080015c4                RTC_SetDate
+                0x080016a8                RTC_DateStructInit
+                0x080016c0                RTC_GetDate
+                0x08001720                RTC_SetAlarm
+                0x08001828                RTC_AlarmStructInit
+                0x08001844                RTC_GetAlarm
+                0x080018e0                RTC_AlarmCmd
+                0x0800193c                RTC_AlarmSubSecondConfig
+                0x08001964                RTC_GetAlarmSubSecond
+                0x0800197c                RTC_WakeUpClockConfig
+                0x080019a0                RTC_SetWakeUpCounter
+                0x080019bc                RTC_GetWakeUpCounter
+                0x080019c8                RTC_WakeUpCmd
+                0x08001a20                RTC_DayLightSavingConfig
+                0x08001a48                RTC_GetStoreOperation
+                0x08001a58                RTC_OutputConfig
+                0x08001a80                RTC_CoarseCalibConfig
+                0x08001ab0                RTC_CoarseCalibCmd
+                0x08001af0                RTC_CalibOutputCmd
+                0x08001b20                RTC_CalibOutputConfig
+                0x08001b44                RTC_SmoothCalibConfig
+                0x08001b90                RTC_TimeStampCmd
+                0x08001bc4                RTC_GetTimeStamp
+                0x08001c80                RTC_GetTimeStampSubSecond
+                0x08001c8c                RTC_TamperTriggerConfig
+                0x08001ca8                RTC_TamperCmd
+                0x08001cc4                RTC_TamperFilterConfig
+                0x08001cdc                RTC_TamperSamplingFreqConfig
+                0x08001cf4                RTC_TamperPinsPrechargeDuration
+                0x08001d0c                RTC_TimeStampOnTamperDetectionCmd
+                0x08001d28                RTC_TamperPullUpCmd
+                0x08001d44                RTC_WriteBackupRegister
+                0x08001d64                RTC_ReadBackupRegister
+                0x08001d84                RTC_TamperPinSelection
+                0x08001d9c                RTC_TimeStampPinSelection
+                0x08001db4                RTC_OutputTypeConfig
+                0x08001dcc                RTC_SynchroShiftConfig
+                0x08001e34                RTC_ITConfig
+                0x08001e7c                RTC_GetFlagStatus
+                0x08001e98                RTC_ClearFlag
+                0x08001eb4                RTC_GetITStatus
+                0x08001ee0                RTC_ClearITPendingBit
+ .text          0x08001efc      0x14c /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_pwr.o)
+                0x08001efc                PWR_DeInit
+                0x08001f18                PWR_BackupAccessCmd
+                0x08001f24                PWR_PVDLevelConfig
+                0x08001f38                PWR_PVDCmd
+                0x08001f44                PWR_WakeUpPinCmd
+                0x08001f50                PWR_BackupRegulatorCmd
+                0x08001f5c                PWR_MainRegulatorModeConfig
+                0x08001f70                PWR_OverDriveCmd
+                0x08001f7c                PWR_OverDriveSWCmd
+                0x08001f88                PWR_UnderDriveCmd
+                0x08001fa4                PWR_FlashPowerDownCmd
+                0x08001fb0                PWR_EnterUnderDriveSTOPMode
+                0x08001fec                PWR_EnterSTOPMode
+                0x08001ff0                PWR_EnterSTANDBYMode
+                0x08002024                PWR_GetFlagStatus
+                0x08002038                PWR_ClearFlag
+ .text          0x08002048      0x580 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+                0x08002048                RCC_DeInit
+                0x08002098                RCC_HSEConfig
+                0x080020a8                RCC_WaitForHSEStartUp
+                0x080020dc                RCC_AdjustHSICalibrationValue
+                0x080020f0                RCC_HSICmd
+                0x080020fc                RCC_LSEConfig
+                0x0800211c                RCC_LSICmd
+                0x08002128                RCC_PLLConfig
+                0x0800214c                RCC_PLLCmd
+                0x08002158                RCC_PLLI2SConfig
+                0x0800216c                RCC_PLLI2SCmd
+                0x08002178                RCC_PLLSAIConfig
+                0x08002190                RCC_PLLSAICmd
+                0x0800219c                RCC_ClockSecuritySystemCmd
+                0x080021a8                RCC_MCO1Config
+                0x080021bc                RCC_MCO2Config
+                0x080021d0                RCC_SYSCLKConfig
+                0x080021e4                RCC_GetSYSCLKSource
+                0x080021f4                RCC_HCLKConfig
+                0x08002208                RCC_PCLK1Config
+                0x0800221c                RCC_PCLK2Config
+                0x08002230                RCC_GetClocksFreq
+                0x080022c8                RCC_RTCCLKConfig
+                0x080022f8                RCC_RTCCLKCmd
+                0x08002304                RCC_BackupResetCmd
+                0x08002310                RCC_I2SCLKConfig
+                0x0800231c                RCC_SAIPLLI2SClkDivConfig
+                0x08002334                RCC_SAIPLLSAIClkDivConfig
+                0x08002350                RCC_SAIBlockACLKConfig
+                0x08002368                RCC_SAIBlockBCLKConfig
+                0x08002380                RCC_LTDCCLKDivConfig
+                0x08002398                RCC_TIMCLKPresConfig
+                0x080023a4                RCC_AHB1PeriphClockCmd
+                0x080023c0                RCC_AHB2PeriphClockCmd
+                0x080023dc                RCC_AHB3PeriphClockCmd
+                0x080023f8                RCC_APB1PeriphClockCmd
+                0x08002414                RCC_APB2PeriphClockCmd
+                0x08002430                RCC_AHB1PeriphResetCmd
+                0x0800244c                RCC_AHB2PeriphResetCmd
+                0x08002468                RCC_AHB3PeriphResetCmd
+                0x08002484                RCC_APB1PeriphResetCmd
+                0x080024a0                RCC_APB2PeriphResetCmd
+                0x080024bc                RCC_AHB1PeriphClockLPModeCmd
+                0x080024d8                RCC_AHB2PeriphClockLPModeCmd
+                0x080024f4                RCC_AHB3PeriphClockLPModeCmd
+                0x08002510                RCC_APB1PeriphClockLPModeCmd
+                0x0800252c                RCC_APB2PeriphClockLPModeCmd
+                0x08002548                RCC_ITConfig
+                0x08002564                RCC_GetFlagStatus
+                0x08002598                RCC_ClearFlag
+                0x080025a8                RCC_GetITStatus
+                0x080025bc                RCC_ClearITPendingBit
+ .text          0x080025c8       0x88 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_syscfg.o)
+                0x080025c8                SYSCFG_DeInit
+                0x080025e4                SYSCFG_MemoryRemapConfig
+                0x080025f0                SYSCFG_MemorySwappingBank
+                0x080025fc                SYSCFG_EXTILineConfig
+                0x08002628                SYSCFG_ETH_MediaInterfaceConfig
+                0x08002634                SYSCFG_CompensationCellCmd
+                0x08002640                SYSCFG_GetCompensationCellStatus
+ .text          0x08002650      0xdac /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+                0x08002650                TIM_DeInit
+                0x08002808                TIM_TimeBaseInit
+                0x080028a0                TIM_TimeBaseStructInit
+                0x080028b4                TIM_PrescalerConfig
+                0x080028bc                TIM_CounterModeConfig
+                0x080028cc                TIM_SetCounter
+                0x080028d0                TIM_SetAutoreload
+                0x080028d4                TIM_GetCounter
+                0x080028d8                TIM_GetPrescaler
+                0x080028e0                TIM_UpdateDisableConfig
+                0x080028fc                TIM_UpdateRequestConfig
+                0x08002918                TIM_ARRPreloadConfig
+                0x08002934                TIM_SelectOnePulseMode
+                0x0800294c                TIM_SetClockDivision
+                0x08002964                TIM_Cmd
+                0x08002980                TIM_OC1Init
+                0x08002a00                TIM_OC2Init
+                0x08002a90                TIM_OC3Init
+                0x08002b1c                TIM_OC4Init
+                0x08002b90                TIM_OCStructInit
+                0x08002ba4                TIM_SelectOCxM
+                0x08002bf0                TIM_SetCompare1
+                0x08002bf4                TIM_SetCompare2
+                0x08002bf8                TIM_SetCompare3
+                0x08002bfc                TIM_SetCompare4
+                0x08002c00                TIM_ForcedOC1Config
+                0x08002c10                TIM_ForcedOC2Config
+                0x08002c24                TIM_ForcedOC3Config
+                0x08002c34                TIM_ForcedOC4Config
+                0x08002c48                TIM_OC1PreloadConfig
+                0x08002c58                TIM_OC2PreloadConfig
+                0x08002c6c                TIM_OC3PreloadConfig
+                0x08002c7c                TIM_OC4PreloadConfig
+                0x08002c90                TIM_OC1FastConfig
+                0x08002ca0                TIM_OC2FastConfig
+                0x08002cb4                TIM_OC3FastConfig
+                0x08002cc4                TIM_OC4FastConfig
+                0x08002cd8                TIM_ClearOC1Ref
+                0x08002ce8                TIM_ClearOC2Ref
+                0x08002cf8                TIM_ClearOC3Ref
+                0x08002d08                TIM_ClearOC4Ref
+                0x08002d18                TIM_OC1PolarityConfig
+                0x08002d28                TIM_OC1NPolarityConfig
+                0x08002d38                TIM_OC2PolarityConfig
+                0x08002d4c                TIM_OC2NPolarityConfig
+                0x08002d60                TIM_OC3PolarityConfig
+                0x08002d74                TIM_OC3NPolarityConfig
+                0x08002d88                TIM_OC4PolarityConfig
+                0x08002d9c                TIM_CCxCmd
+                0x08002dbc                TIM_CCxNCmd
+                0x08002ddc                TIM_ICInit
+                0x08002f44                TIM_ICStructInit
+                0x08002f54                TIM_PWMIConfig
+                0x080030ac                TIM_GetCapture1
+                0x080030b0                TIM_GetCapture2
+                0x080030b4                TIM_GetCapture3
+                0x080030b8                TIM_GetCapture4
+                0x080030bc                TIM_SetIC1Prescaler
+                0x080030d4                TIM_SetIC2Prescaler
+                0x080030f0                TIM_SetIC3Prescaler
+                0x08003108                TIM_SetIC4Prescaler
+                0x08003124                TIM_BDTRConfig
+                0x0800314c                TIM_BDTRStructInit
+                0x08003160                TIM_CtrlPWMOutputs
+                0x08003180                TIM_SelectCOM
+                0x0800319c                TIM_CCPreloadControl
+                0x080031b8                TIM_GenerateEvent
+                0x080031bc                TIM_GetFlagStatus
+                0x080031c8                TIM_ClearFlag
+                0x080031d0                TIM_GetITStatus
+                0x080031e8                TIM_ClearITPendingBit
+                0x080031f0                TIM_DMAConfig
+                0x080031f8                TIM_DMACmd
+                0x0800320c                TIM_ITConfig
+                0x08003210                TIM_SelectCCDMA
+                0x0800322c                TIM_InternalClockConfig
+                0x0800323c                TIM_ITRxExternalClockConfig
+                0x08003258                TIM_TIxExternalClockConfig
+                0x080032e0                TIM_ETRClockMode1Config
+                0x08003308                TIM_ETRClockMode2Config
+                0x08003328                TIM_SelectInputTrigger
+                0x08003338                TIM_SelectOutputTrigger
+                0x08003350                TIM_SelectSlaveMode
+                0x08003368                TIM_SelectMasterSlaveMode
+                0x08003380                TIM_ETRConfig
+                0x08003398                TIM_EncoderInterfaceConfig
+                0x080033d8                TIM_SelectHallSensor
+                0x080033f4                TIM_RemapConfig
+ *(.text*)
+ .text.startup  0x080033fc       0xa0 main.o
+                0x080033fc                main
+ *(.rodata)
+ *(.rodata*)
+ .rodata.str1.4
+                0x0800349c        0x4 main.o
+                                  0x3 (size before relaxing)
+ *(.glue_7)
+ .glue_7        0x080034a0        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x080034a0        0x0 linker stubs
+ *(.eh_frame)
+ *(.init)
+ *(.fini)
+                0x080034a0                . = ALIGN (0x4)
+                0x080034a0                _etext = .
+                0x080034a0                _exit = .
+
+.vfp11_veneer   0x080034a0        0x0
+ .vfp11_veneer  0x080034a0        0x0 linker stubs
+
+.v4_bx          0x080034a0        0x0
+ .v4_bx         0x080034a0        0x0 linker stubs
+
+.iplt           0x080034a0        0x0
+ .iplt          0x080034a0        0x0 startup_stm32f4xx.o
+
+.rel.dyn        0x080034a0        0x0
+ .rel.iplt      0x080034a0        0x0 startup_stm32f4xx.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x080034a0        0x0
+                0x080034a0                __exidx_start = .
+ *(.ARM.exidx*)
+                0x080034a0                __exidx_end = .
+
+.preinit_array  0x080034a0        0x0
+                [!provide]                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                [!provide]                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x080034a0        0x0
+                [!provide]                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array*)
+                [!provide]                PROVIDE (__init_array_end, .)
+
+.fini_array     0x080034a0        0x0
+                [!provide]                PROVIDE (__fini_array_start, .)
+ *(.fini_array*)
+ *(SORT(.fini_array.*))
+                [!provide]                PROVIDE (__fini_array_end, .)
+                0x080034a0                __sidata = .
+
+.data           0x20000000       0x4c load address 0x080034a0
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _sdata = .
+                0x20000000                __data_start__ = _sdata
+ *(.data)
+ .data          0x20000000       0x26 main.o
+                0x20000000                huart2
+                0x20000004                RxBuffer
+                0x20000024                a
+ *fill*         0x20000026        0x2 
+ .data          0x20000028       0x14 system_stm32f4xx.o
+                0x20000028                AHBPrescTable
+                0x20000038                SystemCoreClock
+ .data          0x2000003c       0x10 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+ *(.data*)
+                0x2000004c                . = ALIGN (0x4)
+                0x2000004c                _edata = .
+                0x2000004c                __data_end__ = _edata
+
+.igot.plt       0x2000004c        0x0 load address 0x080034ec
+ .igot.plt      0x2000004c        0x0 startup_stm32f4xx.o
+                0x2000004c                . = ALIGN (0x4)
+
+.bss            0x2000004c       0x1c load address 0x080034ec
+                0x2000004c                _sbss = .
+                0x2000004c                __bss_start__ = _sbss
+ *(.bss)
+ .bss           0x2000004c        0x2 main.o
+                0x2000004d                b
+ *(.bss*)
+ *(COMMON)
+ *fill*         0x2000004e        0x2 
+ COMMON         0x20000050       0x18 main.o
+                0x20000050                A
+                0x2000005c                distance
+                0x2000005e                c
+                0x20000060                GET_TIME
+                0x20000064                msTicks
+                0x20000068                . = ALIGN (0x4)
+                0x20000068                _ebss = .
+                0x20000068                __bss_end__ = _ebss
+
+._user_heap_stack
+                0x20000068     0x6000 load address 0x08003508
+                0x20000068                . = ALIGN (0x4)
+                [!provide]                PROVIDE (end, .)
+                [!provide]                PROVIDE (_end, .)
+                0x20002068                . = (. + _Min_Heap_Size)
+ *fill*         0x20000068     0x2000 
+                0x20006068                . = (. + _Min_Stack_Size)
+ *fill*         0x20002068     0x4000 
+                0x20006068                . = ALIGN (0x4)
+OUTPUT(/home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/build/blinky.elf elf32-littlearm)
+
+.debug_info     0x00000000     0x9630
+ .debug_info    0x00000000      0x11f startup_stm32f4xx.o
+ .debug_info    0x0000011f     0x1a65 main.o
+ .debug_info    0x00001b84      0x7ba stm32f4xx_it.o
+ .debug_info    0x0000233e      0x615 system_stm32f4xx.o
+ .debug_info    0x00002953      0x84a /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_gpio.o)
+ .debug_info    0x0000319d      0x542 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(misc.o)
+ .debug_info    0x000036df      0xc5b /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+ .debug_info    0x0000433a      0x305 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_exti.o)
+ .debug_info    0x0000463f     0x13d8 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+ .debug_info    0x00005a17      0x5db /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_pwr.o)
+ .debug_info    0x00005ff2      0xed1 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+ .debug_info    0x00006ec3      0x2dd /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_syscfg.o)
+ .debug_info    0x000071a0     0x2490 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+
+.debug_abbrev   0x00000000     0x1863
+ .debug_abbrev  0x00000000       0xca startup_stm32f4xx.o
+ .debug_abbrev  0x000000ca      0x2e6 main.o
+ .debug_abbrev  0x000003b0      0x198 stm32f4xx_it.o
+ .debug_abbrev  0x00000548      0x147 system_stm32f4xx.o
+ .debug_abbrev  0x0000068f      0x1f5 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_gpio.o)
+ .debug_abbrev  0x00000884      0x158 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(misc.o)
+ .debug_abbrev  0x000009dc      0x25a /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+ .debug_abbrev  0x00000c36      0x1b0 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_exti.o)
+ .debug_abbrev  0x00000de6      0x267 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+ .debug_abbrev  0x0000104d      0x1c1 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_pwr.o)
+ .debug_abbrev  0x0000120e      0x270 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+ .debug_abbrev  0x0000147e      0x164 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_syscfg.o)
+ .debug_abbrev  0x000015e2      0x281 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+
+.debug_loc      0x00000000     0x5703
+ .debug_loc     0x00000000       0x3e startup_stm32f4xx.o
+ .debug_loc     0x0000003e      0x1c2 main.o
+ .debug_loc     0x00000200       0x1e stm32f4xx_it.o
+ .debug_loc     0x0000021e      0x13b system_stm32f4xx.o
+ .debug_loc     0x00000359      0x3d2 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_gpio.o)
+ .debug_loc     0x0000072b      0x17c /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(misc.o)
+ .debug_loc     0x000008a7      0xa0f /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+ .debug_loc     0x000012b6      0x12d /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_exti.o)
+ .debug_loc     0x000013e3     0x1377 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+ .debug_loc     0x0000275a      0x167 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_pwr.o)
+ .debug_loc     0x000028c1      0xd16 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+ .debug_loc     0x000035d7       0xa6 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_syscfg.o)
+ .debug_loc     0x0000367d     0x2086 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+
+.debug_aranges  0x00000000      0x1a8
+ .debug_aranges
+                0x00000000       0x20 startup_stm32f4xx.o
+ .debug_aranges
+                0x00000020       0x28 main.o
+ .debug_aranges
+                0x00000048       0x20 stm32f4xx_it.o
+ .debug_aranges
+                0x00000068       0x20 system_stm32f4xx.o
+ .debug_aranges
+                0x00000088       0x20 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_gpio.o)
+ .debug_aranges
+                0x000000a8       0x20 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(misc.o)
+ .debug_aranges
+                0x000000c8       0x20 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+ .debug_aranges
+                0x000000e8       0x20 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_exti.o)
+ .debug_aranges
+                0x00000108       0x20 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+ .debug_aranges
+                0x00000128       0x20 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_pwr.o)
+ .debug_aranges
+                0x00000148       0x20 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+ .debug_aranges
+                0x00000168       0x20 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_syscfg.o)
+ .debug_aranges
+                0x00000188       0x20 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+
+.debug_line     0x00000000     0x2731
+ .debug_line    0x00000000       0x64 startup_stm32f4xx.o
+ .debug_line    0x00000064      0x3ae main.o
+ .debug_line    0x00000412      0x20a stm32f4xx_it.o
+ .debug_line    0x0000061c      0x1dc system_stm32f4xx.o
+ .debug_line    0x000007f8      0x29c /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_gpio.o)
+ .debug_line    0x00000a94      0x1b0 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(misc.o)
+ .debug_line    0x00000c44      0x37e /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+ .debug_line    0x00000fc2      0x1d7 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_exti.o)
+ .debug_line    0x00001199      0x735 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+ .debug_line    0x000018ce      0x224 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_pwr.o)
+ .debug_line    0x00001af2      0x33d /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+ .debug_line    0x00001e2f      0x1ba /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_syscfg.o)
+ .debug_line    0x00001fe9      0x748 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+
+.debug_str      0x00000000     0x3267
+ .debug_str     0x00000000      0x15f startup_stm32f4xx.o
+                                0x171 (size before relaxing)
+ .debug_str     0x0000015f     0x1062 main.o
+                               0x119b (size before relaxing)
+ .debug_str     0x000011c1      0x159 stm32f4xx_it.o
+                                0x471 (size before relaxing)
+ .debug_str     0x0000131a      0x1c0 system_stm32f4xx.o
+                                0x3c6 (size before relaxing)
+ .debug_str     0x000014da      0x13e /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_gpio.o)
+                                0x4b7 (size before relaxing)
+ .debug_str     0x00001618      0x11d /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(misc.o)
+                                0x3c0 (size before relaxing)
+ .debug_str     0x00001735      0x36d /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+                                0x6e5 (size before relaxing)
+ .debug_str     0x00001aa2       0x5a /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_exti.o)
+                                0x32a (size before relaxing)
+ .debug_str     0x00001afc      0x5ea /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+                                0xb48 (size before relaxing)
+ .debug_str     0x000020e6      0x167 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_pwr.o)
+                                0x3d4 (size before relaxing)
+ .debug_str     0x0000224d      0x522 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+                                0x995 (size before relaxing)
+ .debug_str     0x0000276f      0x132 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_syscfg.o)
+                                0x325 (size before relaxing)
+ .debug_str     0x000028a1      0x9c6 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+                                0xde3 (size before relaxing)
+
+.comment        0x00000000       0x6e
+ .comment       0x00000000       0x6e startup_stm32f4xx.o
+                                 0x6f (size before relaxing)
+ .comment       0x0000006e       0x6f main.o
+ .comment       0x0000006e       0x6f stm32f4xx_it.o
+ .comment       0x0000006e       0x6f system_stm32f4xx.o
+ .comment       0x0000006e       0x6f /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_gpio.o)
+ .comment       0x0000006e       0x6f /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(misc.o)
+ .comment       0x0000006e       0x6f /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+ .comment       0x0000006e       0x6f /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_exti.o)
+ .comment       0x0000006e       0x6f /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+ .comment       0x0000006e       0x6f /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_pwr.o)
+ .comment       0x0000006e       0x6f /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+ .comment       0x0000006e       0x6f /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_syscfg.o)
+ .comment       0x0000006e       0x6f /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+
+.ARM.attributes
+                0x00000000       0x31
+ .ARM.attributes
+                0x00000000       0x33 startup_stm32f4xx.o
+ .ARM.attributes
+                0x00000033       0x33 main.o
+ .ARM.attributes
+                0x00000066       0x33 stm32f4xx_it.o
+ .ARM.attributes
+                0x00000099       0x33 system_stm32f4xx.o
+ .ARM.attributes
+                0x000000cc       0x33 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_gpio.o)
+ .ARM.attributes
+                0x000000ff       0x33 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(misc.o)
+ .ARM.attributes
+                0x00000132       0x33 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+ .ARM.attributes
+                0x00000165       0x33 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_exti.o)
+ .ARM.attributes
+                0x00000198       0x33 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+ .ARM.attributes
+                0x000001cb       0x33 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_pwr.o)
+ .ARM.attributes
+                0x000001fe       0x33 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+ .ARM.attributes
+                0x00000231       0x33 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_syscfg.o)
+ .ARM.attributes
+                0x00000264       0x33 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+
+.debug_frame    0x00000000     0x18cc
+ .debug_frame   0x00000000       0x40 startup_stm32f4xx.o
+ .debug_frame   0x00000040       0xd4 main.o
+ .debug_frame   0x00000114      0x120 stm32f4xx_it.o
+ .debug_frame   0x00000234       0x3c system_stm32f4xx.o
+ .debug_frame   0x00000270      0x174 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_gpio.o)
+ .debug_frame   0x000003e4       0x70 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(misc.o)
+ .debug_frame   0x00000454      0x284 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+ .debug_frame   0x000006d8       0xb4 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_exti.o)
+ .debug_frame   0x0000078c      0x50c /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+ .debug_frame   0x00000c98      0x128 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_pwr.o)
+ .debug_frame   0x00000dc0      0x37c /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+ .debug_frame   0x0000113c       0x98 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_syscfg.o)
+ .debug_frame   0x000011d4      0x6f8 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+
+.debug_ranges   0x00000000      0x240
+ .debug_ranges  0x00000000       0x50 main.o
+ .debug_ranges  0x00000050       0x18 stm32f4xx_it.o
+ .debug_ranges  0x00000068       0x18 system_stm32f4xx.o
+ .debug_ranges  0x00000080       0x30 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+ .debug_ranges  0x000000b0       0xc8 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+ .debug_ranges  0x00000178       0x20 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+ .debug_ranges  0x00000198       0xa8 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+
+Cross Reference Table
+
+Symbol                                            File
+A                                                 main.o
+ADC_IRQHandler                                    startup_stm32f4xx.o
+AHBPrescTable                                     system_stm32f4xx.o
+BusFault_Handler                                  startup_stm32f4xx.o
+CAN1_RX0_IRQHandler                               startup_stm32f4xx.o
+CAN1_RX1_IRQHandler                               startup_stm32f4xx.o
+CAN1_SCE_IRQHandler                               startup_stm32f4xx.o
+CAN1_TX_IRQHandler                                startup_stm32f4xx.o
+CAN2_RX0_IRQHandler                               startup_stm32f4xx.o
+CAN2_RX1_IRQHandler                               startup_stm32f4xx.o
+CAN2_SCE_IRQHandler                               startup_stm32f4xx.o
+CAN2_TX_IRQHandler                                startup_stm32f4xx.o
+CRYP_IRQHandler                                   startup_stm32f4xx.o
+DCMI_IRQHandler                                   startup_stm32f4xx.o
+DMA1_Stream0_IRQHandler                           startup_stm32f4xx.o
+DMA1_Stream1_IRQHandler                           startup_stm32f4xx.o
+DMA1_Stream2_IRQHandler                           startup_stm32f4xx.o
+DMA1_Stream3_IRQHandler                           startup_stm32f4xx.o
+DMA1_Stream4_IRQHandler                           startup_stm32f4xx.o
+DMA1_Stream5_IRQHandler                           startup_stm32f4xx.o
+DMA1_Stream6_IRQHandler                           startup_stm32f4xx.o
+DMA1_Stream7_IRQHandler                           startup_stm32f4xx.o
+DMA2_Stream0_IRQHandler                           startup_stm32f4xx.o
+DMA2_Stream1_IRQHandler                           startup_stm32f4xx.o
+DMA2_Stream2_IRQHandler                           startup_stm32f4xx.o
+DMA2_Stream3_IRQHandler                           startup_stm32f4xx.o
+DMA2_Stream4_IRQHandler                           startup_stm32f4xx.o
+DMA2_Stream5_IRQHandler                           startup_stm32f4xx.o
+DMA2_Stream6_IRQHandler                           startup_stm32f4xx.o
+DMA2_Stream7_IRQHandler                           startup_stm32f4xx.o
+DebugMon_Handler                                  startup_stm32f4xx.o
+Default_Handler                                   startup_stm32f4xx.o
+ETH_IRQHandler                                    startup_stm32f4xx.o
+ETH_WKUP_IRQHandler                               startup_stm32f4xx.o
+EXTI0_IRQHandler                                  main.o
+                                                  startup_stm32f4xx.o
+EXTI15_10_IRQHandler                              startup_stm32f4xx.o
+EXTI1_IRQHandler                                  startup_stm32f4xx.o
+EXTI2_IRQHandler                                  startup_stm32f4xx.o
+EXTI3_IRQHandler                                  startup_stm32f4xx.o
+EXTI4_IRQHandler                                  startup_stm32f4xx.o
+EXTI9_5_IRQHandler                                startup_stm32f4xx.o
+EXTI_ClearFlag                                    /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_exti.o)
+EXTI_ClearITPendingBit                            /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_exti.o)
+                                                  stm32f4xx_it.o
+                                                  main.o
+EXTI_DeInit                                       /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_exti.o)
+EXTI_GenerateSWInterrupt                          /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_exti.o)
+EXTI_GetFlagStatus                                /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_exti.o)
+EXTI_GetITStatus                                  /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_exti.o)
+                                                  main.o
+EXTI_Init                                         /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_exti.o)
+                                                  main.o
+EXTI_StructInit                                   /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_exti.o)
+FLASH_IRQHandler                                  startup_stm32f4xx.o
+FPU_IRQHandler                                    startup_stm32f4xx.o
+FSMC_IRQHandler                                   startup_stm32f4xx.o
+GET_DISTANCE_USART                                main.o
+GET_TIME                                          main.o
+GET_TIME_UART                                     main.o
+GPIO_DeInit                                       /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_gpio.o)
+GPIO_Init                                         /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_gpio.o)
+                                                  main.o
+GPIO_PinAFConfig                                  /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_gpio.o)
+                                                  main.o
+GPIO_PinLockConfig                                /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_gpio.o)
+GPIO_ReadInputData                                /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_gpio.o)
+GPIO_ReadInputDataBit                             /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_gpio.o)
+GPIO_ReadOutputData                               /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_gpio.o)
+GPIO_ReadOutputDataBit                            /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_gpio.o)
+GPIO_ResetBits                                    /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_gpio.o)
+GPIO_SetBits                                      /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_gpio.o)
+GPIO_StructInit                                   /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_gpio.o)
+GPIO_ToggleBits                                   /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_gpio.o)
+                                                  main.o
+GPIO_Write                                        /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_gpio.o)
+GPIO_WriteBit                                     /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_gpio.o)
+                                                  stm32f4xx_it.o
+                                                  main.o
+HASH_RNG_IRQHandler                               startup_stm32f4xx.o
+HardFault_Handler                                 stm32f4xx_it.o
+                                                  startup_stm32f4xx.o
+I2C1_ER_IRQHandler                                startup_stm32f4xx.o
+I2C1_EV_IRQHandler                                startup_stm32f4xx.o
+I2C2_ER_IRQHandler                                startup_stm32f4xx.o
+I2C2_EV_IRQHandler                                startup_stm32f4xx.o
+I2C3_ER_IRQHandler                                startup_stm32f4xx.o
+I2C3_EV_IRQHandler                                startup_stm32f4xx.o
+MemManage_Handler                                 startup_stm32f4xx.o
+NMI_Handler                                       stm32f4xx_it.o
+                                                  startup_stm32f4xx.o
+NVIC_Init                                         /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(misc.o)
+                                                  main.o
+NVIC_PriorityGroupConfig                          /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(misc.o)
+NVIC_SetVectorTable                               /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(misc.o)
+NVIC_SystemLPConfig                               /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(misc.o)
+OTG_FS_IRQHandler                                 startup_stm32f4xx.o
+OTG_FS_WKUP_IRQHandler                            startup_stm32f4xx.o
+OTG_HS_EP1_IN_IRQHandler                          startup_stm32f4xx.o
+OTG_HS_EP1_OUT_IRQHandler                         startup_stm32f4xx.o
+OTG_HS_IRQHandler                                 startup_stm32f4xx.o
+OTG_HS_WKUP_IRQHandler                            startup_stm32f4xx.o
+PVD_IRQHandler                                    startup_stm32f4xx.o
+PWR_BackupAccessCmd                               /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_pwr.o)
+                                                  main.o
+PWR_BackupRegulatorCmd                            /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_pwr.o)
+PWR_ClearFlag                                     /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_pwr.o)
+PWR_DeInit                                        /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_pwr.o)
+                                                  main.o
+PWR_EnterSTANDBYMode                              /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_pwr.o)
+PWR_EnterSTOPMode                                 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_pwr.o)
+PWR_EnterUnderDriveSTOPMode                       /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_pwr.o)
+PWR_FlashPowerDownCmd                             /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_pwr.o)
+PWR_GetFlagStatus                                 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_pwr.o)
+PWR_MainRegulatorModeConfig                       /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_pwr.o)
+PWR_OverDriveCmd                                  /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_pwr.o)
+PWR_OverDriveSWCmd                                /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_pwr.o)
+PWR_PVDCmd                                        /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_pwr.o)
+PWR_PVDLevelConfig                                /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_pwr.o)
+PWR_UnderDriveCmd                                 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_pwr.o)
+PWR_WakeUpPinCmd                                  /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_pwr.o)
+PendSV_Handler                                    startup_stm32f4xx.o
+RCC_AHB1PeriphClockCmd                            /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+                                                  main.o
+RCC_AHB1PeriphClockLPModeCmd                      /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_AHB1PeriphResetCmd                            /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+                                                  /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_gpio.o)
+RCC_AHB2PeriphClockCmd                            /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_AHB2PeriphClockLPModeCmd                      /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_AHB2PeriphResetCmd                            /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_AHB3PeriphClockCmd                            /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_AHB3PeriphClockLPModeCmd                      /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_AHB3PeriphResetCmd                            /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_APB1PeriphClockCmd                            /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+                                                  main.o
+RCC_APB1PeriphClockLPModeCmd                      /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_APB1PeriphResetCmd                            /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+                                                  /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+                                                  /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_pwr.o)
+                                                  /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+RCC_APB2PeriphClockCmd                            /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+                                                  main.o
+RCC_APB2PeriphClockLPModeCmd                      /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_APB2PeriphResetCmd                            /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+                                                  /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+                                                  /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_syscfg.o)
+                                                  /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+RCC_AdjustHSICalibrationValue                     /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_BackupResetCmd                                /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_ClearFlag                                     /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_ClearITPendingBit                             /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_ClockSecuritySystemCmd                        /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_DeInit                                        /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_GetClocksFreq                                 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+                                                  /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+RCC_GetFlagStatus                                 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+                                                  main.o
+RCC_GetITStatus                                   /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_GetSYSCLKSource                               /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_HCLKConfig                                    /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_HSEConfig                                     /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_HSICmd                                        /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_I2SCLKConfig                                  /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_IRQHandler                                    startup_stm32f4xx.o
+RCC_ITConfig                                      /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_LSEConfig                                     /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_LSICmd                                        /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+                                                  main.o
+RCC_LTDCCLKDivConfig                              /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_MCO1Config                                    /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_MCO2Config                                    /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_PCLK1Config                                   /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_PCLK2Config                                   /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_PLLCmd                                        /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_PLLConfig                                     /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_PLLI2SCmd                                     /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_PLLI2SConfig                                  /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_PLLSAICmd                                     /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_PLLSAIConfig                                  /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_RTCCLKCmd                                     /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+                                                  main.o
+RCC_RTCCLKConfig                                  /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+                                                  main.o
+RCC_SAIBlockACLKConfig                            /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_SAIBlockBCLKConfig                            /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_SAIPLLI2SClkDivConfig                         /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_SAIPLLSAIClkDivConfig                         /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_SYSCLKConfig                                  /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_TIMCLKPresConfig                              /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RCC_WaitForHSEStartUp                             /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rcc.o)
+RTC_AlarmCmd                                      /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+                                                  main.o
+RTC_AlarmStructInit                               /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+                                                  main.o
+RTC_AlarmSubSecondConfig                          /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+RTC_Alarm_IRQHandler                              stm32f4xx_it.o
+                                                  startup_stm32f4xx.o
+RTC_BypassShadowCmd                               /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+RTC_CalibOutputCmd                                /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+RTC_CalibOutputConfig                             /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+RTC_ClearFlag                                     /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+                                                  stm32f4xx_it.o
+                                                  main.o
+RTC_ClearITPendingBit                             /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+                                                  stm32f4xx_it.o
+RTC_CoarseCalibCmd                                /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+RTC_CoarseCalibConfig                             /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+RTC_DateStructInit                                /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+                                                  main.o
+RTC_DayLightSavingConfig                          /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+RTC_DeInit                                        /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+                                                  main.o
+RTC_EnterInitMode                                 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+                                                  main.o
+RTC_ExitInitMode                                  /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+RTC_GetAlarm                                      /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+RTC_GetAlarmSubSecond                             /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+RTC_GetDate                                       /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+RTC_GetFlagStatus                                 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+RTC_GetITStatus                                   /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+                                                  stm32f4xx_it.o
+RTC_GetStoreOperation                             /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+RTC_GetSubSecond                                  /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+RTC_GetTime                                       /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+                                                  main.o
+RTC_GetTimeStamp                                  /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+RTC_GetTimeStampSubSecond                         /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+RTC_GetWakeUpCounter                              /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+RTC_ITConfig                                      /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+                                                  main.o
+RTC_Init                                          /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+                                                  main.o
+RTC_OutputConfig                                  /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+RTC_OutputTypeConfig                              /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+RTC_ReadBackupRegister                            /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+RTC_RefClockCmd                                   /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+RTC_SetAlarm                                      /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+                                                  main.o
+RTC_SetDate                                       /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+                                                  main.o
+RTC_SetTime                                       /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+                                                  main.o
+RTC_SetWakeUpCounter                              /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+                                                  main.o
+RTC_SmoothCalibConfig                             /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+RTC_StructInit                                    /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+                                                  main.o
+RTC_SynchroShiftConfig                            /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+RTC_TamperCmd                                     /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+RTC_TamperFilterConfig                            /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+RTC_TamperPinSelection                            /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+RTC_TamperPinsPrechargeDuration                   /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+RTC_TamperPullUpCmd                               /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+RTC_TamperSamplingFreqConfig                      /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+RTC_TamperTriggerConfig                           /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+RTC_TimeStampCmd                                  /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+RTC_TimeStampOnTamperDetectionCmd                 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+RTC_TimeStampPinSelection                         /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+RTC_TimeStructInit                                /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+                                                  main.o
+RTC_WKUP_IRQHandler                               stm32f4xx_it.o
+                                                  startup_stm32f4xx.o
+RTC_WaitForSynchro                                /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+                                                  main.o
+RTC_WakeUpClockConfig                             /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+                                                  main.o
+RTC_WakeUpCmd                                     /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+                                                  main.o
+RTC_WriteBackupRegister                           /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+RTC_WriteProtectionCmd                            /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_rtc.o)
+                                                  main.o
+Reset_Handler                                     startup_stm32f4xx.o
+RxBuffer                                          main.o
+SDIO_IRQHandler                                   startup_stm32f4xx.o
+SPI1_IRQHandler                                   startup_stm32f4xx.o
+SPI2_IRQHandler                                   startup_stm32f4xx.o
+SPI3_IRQHandler                                   startup_stm32f4xx.o
+SVC_Handler                                       startup_stm32f4xx.o
+SYSCFG_CompensationCellCmd                        /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_syscfg.o)
+SYSCFG_DeInit                                     /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_syscfg.o)
+SYSCFG_ETH_MediaInterfaceConfig                   /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_syscfg.o)
+SYSCFG_EXTILineConfig                             /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_syscfg.o)
+                                                  main.o
+SYSCFG_GetCompensationCellStatus                  /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_syscfg.o)
+SYSCFG_MemoryRemapConfig                          /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_syscfg.o)
+SYSCFG_MemorySwappingBank                         /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_syscfg.o)
+SysTick_CLKSourceConfig                           /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(misc.o)
+SysTick_Handler                                   startup_stm32f4xx.o
+SystemCoreClock                                   system_stm32f4xx.o
+SystemCoreClockUpdate                             system_stm32f4xx.o
+SystemInit                                        system_stm32f4xx.o
+                                                  main.o
+                                                  startup_stm32f4xx.o
+TAMP_STAMP_IRQHandler                             startup_stm32f4xx.o
+TIM1_BRK_TIM9_IRQHandler                          startup_stm32f4xx.o
+TIM1_CC_IRQHandler                                startup_stm32f4xx.o
+TIM1_TRG_COM_TIM11_IRQHandler                     startup_stm32f4xx.o
+TIM1_UP_TIM10_IRQHandler                          stm32f4xx_it.o
+                                                  startup_stm32f4xx.o
+TIM2_IRQHandler                                   startup_stm32f4xx.o
+TIM3_IRQHandler                                   startup_stm32f4xx.o
+TIM4_IRQHandler                                   startup_stm32f4xx.o
+TIM5_IRQHandler                                   startup_stm32f4xx.o
+TIM6_DAC_IRQHandler                               startup_stm32f4xx.o
+TIM7_IRQHandler                                   startup_stm32f4xx.o
+TIM8_BRK_TIM12_IRQHandler                         startup_stm32f4xx.o
+TIM8_CC_IRQHandler                                startup_stm32f4xx.o
+TIM8_TRG_COM_TIM14_IRQHandler                     startup_stm32f4xx.o
+TIM8_UP_TIM13_IRQHandler                          startup_stm32f4xx.o
+TIM_ARRPreloadConfig                              /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_BDTRConfig                                    /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_BDTRStructInit                                /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_CCPreloadControl                              /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_CCxCmd                                        /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_CCxNCmd                                       /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_ClearFlag                                     /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_ClearITPendingBit                             /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+                                                  stm32f4xx_it.o
+TIM_ClearOC1Ref                                   /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_ClearOC2Ref                                   /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_ClearOC3Ref                                   /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_ClearOC4Ref                                   /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_Cmd                                           /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+                                                  stm32f4xx_it.o
+                                                  main.o
+TIM_CounterModeConfig                             /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_CtrlPWMOutputs                                /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_DMACmd                                        /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_DMAConfig                                     /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_DeInit                                        /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+                                                  main.o
+TIM_ETRClockMode1Config                           /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_ETRClockMode2Config                           /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_ETRConfig                                     /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_EncoderInterfaceConfig                        /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_ForcedOC1Config                               /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_ForcedOC2Config                               /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_ForcedOC3Config                               /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_ForcedOC4Config                               /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_GenerateEvent                                 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_GetCapture1                                   /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_GetCapture2                                   /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_GetCapture3                                   /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_GetCapture4                                   /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_GetCounter                                    /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_GetFlagStatus                                 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_GetITStatus                                   /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+                                                  stm32f4xx_it.o
+TIM_GetPrescaler                                  /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_ICInit                                        /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_ICStructInit                                  /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_ITConfig                                      /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+                                                  main.o
+TIM_ITRxExternalClockConfig                       /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_InternalClockConfig                           /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC1FastConfig                                 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC1Init                                       /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC1NPolarityConfig                            /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC1PolarityConfig                             /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC1PreloadConfig                              /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC2FastConfig                                 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC2Init                                       /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC2NPolarityConfig                            /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC2PolarityConfig                             /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC2PreloadConfig                              /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC3FastConfig                                 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC3Init                                       /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC3NPolarityConfig                            /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC3PolarityConfig                             /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC3PreloadConfig                              /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC4FastConfig                                 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC4Init                                       /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC4PolarityConfig                             /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC4PreloadConfig                              /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_OCStructInit                                  /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_PWMIConfig                                    /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_PrescalerConfig                               /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_RemapConfig                                   /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_SelectCCDMA                                   /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_SelectCOM                                     /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_SelectHallSensor                              /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_SelectInputTrigger                            /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_SelectMasterSlaveMode                         /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_SelectOCxM                                    /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_SelectOnePulseMode                            /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_SelectOutputTrigger                           /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_SelectSlaveMode                               /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_SetAutoreload                                 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_SetClockDivision                              /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_SetCompare1                                   /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_SetCompare2                                   /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_SetCompare3                                   /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_SetCompare4                                   /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_SetCounter                                    /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+                                                  main.o
+TIM_SetIC1Prescaler                               /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_SetIC2Prescaler                               /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_SetIC3Prescaler                               /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_SetIC4Prescaler                               /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_TIxExternalClockConfig                        /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_TimeBaseInit                                  /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+                                                  main.o
+TIM_TimeBaseStructInit                            /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_UpdateDisableConfig                           /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+TIM_UpdateRequestConfig                           /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_tim.o)
+UART4_IRQHandler                                  startup_stm32f4xx.o
+UART5_IRQHandler                                  startup_stm32f4xx.o
+USART1_IRQHandler                                 startup_stm32f4xx.o
+USART2_IRQHandler                                 stm32f4xx_it.o
+                                                  startup_stm32f4xx.o
+USART3_IRQHandler                                 startup_stm32f4xx.o
+USART6_IRQHandler                                 startup_stm32f4xx.o
+USART_ClearFlag                                   /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+USART_ClearITPendingBit                           /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+USART_ClockInit                                   /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+USART_ClockStructInit                             /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+USART_Cmd                                         /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+                                                  main.o
+USART_DMACmd                                      /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+                                                  main.o
+USART_DeInit                                      /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+                                                  main.o
+USART_GetFlagStatus                               /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+                                                  stm32f4xx_it.o
+USART_GetITStatus                                 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+USART_HalfDuplexCmd                               /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+USART_ITConfig                                    /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+                                                  main.o
+USART_Init                                        /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+                                                  main.o
+USART_IrDACmd                                     /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+USART_IrDAConfig                                  /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+USART_LINBreakDetectLengthConfig                  /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+                                                  main.o
+USART_LINCmd                                      /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+                                                  main.o
+USART_OneBitMethodCmd                             /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+USART_OverSampling8Cmd                            /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+USART_ReceiveData                                 /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+                                                  stm32f4xx_it.o
+USART_ReceiverWakeUpCmd                           /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+USART_SendBreak                                   /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+USART_SendData                                    /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+                                                  stm32f4xx_it.o
+USART_SendString                                  /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+                                                  main.o
+USART_SetAddress                                  /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+USART_SetGuardTime                                /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+USART_SetPrescaler                                /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+USART_SmartCardCmd                                /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+USART_SmartCardNACKCmd                            /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+USART_StructInit                                  /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+USART_WakeUpConfig                                /home/huynhtai/Downloads/STM32-master/EXTI_USART2_NIVC_SENSOR/stdperiph.a(stm32f4xx_usart.o)
+UsageFault_Handler                                startup_stm32f4xx.o
+WWDG_IRQHandler                                   startup_stm32f4xx.o
+__bss_end__                                       startup_stm32f4xx.o
+__bss_start__                                     startup_stm32f4xx.o
+__data_end__                                      startup_stm32f4xx.o
+__data_start__                                    startup_stm32f4xx.o
+__sidata                                          startup_stm32f4xx.o
+_estack                                           startup_stm32f4xx.o
+a                                                 main.o
+b                                                 main.o
+c                                                 main.o
+delay                                             main.o
+distance                                          main.o
+g_pfnVectors                                      startup_stm32f4xx.o
+huart2                                            main.o
+init_GPIO                                         main.o
+main                                              main.o
+                                                  startup_stm32f4xx.o
+msTicks                                           main.o
+turnOffLED                                        CortexM4asmOps.o
+turnOnLED                                         CortexM4asmOps.o

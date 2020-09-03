@@ -1,0 +1,1392 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_gpio.o)
+                              sensor.o (GPIO_Init)
+/home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+                              EEPROM.o (FLASH_Unlock)
+/home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(misc.o)
+                              sensor.o (NVIC_Init)
+/home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+                              main.o (USART_DeInit)
+/home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_exti.o)
+                              sensor.o (EXTI_Init)
+/home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+                              main.o (RTC_StructInit)
+/home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_pwr.o)
+                              main.o (PWR_DeInit)
+/home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+                              main.o (RCC_LSICmd)
+/home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_syscfg.o)
+                              sensor.o (SYSCFG_EXTILineConfig)
+/home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+                              sensor.o (TIM_DeInit)
+
+Allocating common symbols
+Common symbol       size              file
+
+A                   0xc               main.o
+distance            0x2               main.o
+state               0x1               sensor.o
+c                   0x1               main.o
+GPIO_InitStructure  0x8               sensor.o
+GET_TIME            0x4               main.o
+msTicks             0x4               main.o
+NVIC_InitStructure  0x4               sensor.o
+EXTI_InitStructure  0x8               sensor.o
+dis                 0x4               sensor.o
+TIM_TimeBaseInitStruct
+                    0xc               sensor.o
+
+Discarded input sections
+
+ .text          0x00000000       0x5c EEPROM.o
+ .data          0x00000000        0x0 EEPROM.o
+ .bss           0x00000000        0x0 EEPROM.o
+ .debug_info    0x00000000      0x273 EEPROM.o
+ .debug_abbrev  0x00000000      0x10d EEPROM.o
+ .debug_loc     0x00000000      0x14b EEPROM.o
+ .debug_aranges
+                0x00000000       0x20 EEPROM.o
+ .debug_line    0x00000000      0x17e EEPROM.o
+ .debug_str     0x00000000      0x2cd EEPROM.o
+ .comment       0x00000000       0x6f EEPROM.o
+ .debug_frame   0x00000000       0x70 EEPROM.o
+ .ARM.attributes
+                0x00000000       0x33 EEPROM.o
+ .data          0x00000000        0x0 sensor.o
+ .data          0x00000000        0x0 startup_stm32f4xx.o
+ .bss           0x00000000        0x0 startup_stm32f4xx.o
+ .bss           0x00000000        0x1 main.o
+ .data          0x00000000        0x0 stm32f4xx_it.o
+ .bss           0x00000000        0x0 stm32f4xx_it.o
+ .bss           0x00000000        0x0 system_stm32f4xx.o
+ .text          0x00000000       0x18 CortexM4asmOps.o
+ .data          0x00000000        0x0 CortexM4asmOps.o
+ .bss           0x00000000        0x0 CortexM4asmOps.o
+ .ARM.attributes
+                0x00000000       0x14 CortexM4asmOps.o
+ .data          0x00000000        0x0 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_gpio.o)
+ .bss           0x00000000        0x0 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_gpio.o)
+ .text          0x00000000      0x55c /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+ .data          0x00000000        0x0 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+ .bss           0x00000000        0x0 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+ .debug_info    0x00000000      0x9f0 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+ .debug_abbrev  0x00000000      0x21c /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+ .debug_loc     0x00000000      0x836 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+ .debug_aranges
+                0x00000000       0x20 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+ .debug_line    0x00000000      0x308 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+ .debug_str     0x00000000      0x662 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+ .comment       0x00000000       0x6f /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+ .debug_frame   0x00000000      0x338 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+ .ARM.attributes
+                0x00000000       0x33 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+ .data          0x00000000        0x0 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(misc.o)
+ .bss           0x00000000        0x0 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(misc.o)
+ .data          0x00000000        0x0 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+ .bss           0x00000000        0x0 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+ .data          0x00000000        0x0 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_exti.o)
+ .bss           0x00000000        0x0 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_exti.o)
+ .data          0x00000000        0x0 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+ .bss           0x00000000        0x0 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+ .data          0x00000000        0x0 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_pwr.o)
+ .bss           0x00000000        0x0 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_pwr.o)
+ .bss           0x00000000        0x0 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+ .data          0x00000000        0x0 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_syscfg.o)
+ .bss           0x00000000        0x0 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_syscfg.o)
+ .data          0x00000000        0x0 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+ .bss           0x00000000        0x0 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00100000         xr
+RAM              0x20000000         0x00020000         xrw
+CCM              0x10000000         0x00010000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD EEPROM.o
+LOAD sensor.o
+LOAD startup_stm32f4xx.o
+LOAD main.o
+LOAD stm32f4xx_it.o
+LOAD system_stm32f4xx.o
+LOAD CortexM4asmOps.o
+LOAD /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a
+LOAD /home/huynhtai/Downloads/TOOLCHAIN/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libc_nano.a
+LOAD /home/huynhtai/Downloads/TOOLCHAIN/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a
+LOAD /home/huynhtai/Downloads/TOOLCHAIN/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libnosys.a
+LOAD /home/huynhtai/Downloads/TOOLCHAIN/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libm.a
+START GROUP
+LOAD /home/huynhtai/Downloads/TOOLCHAIN/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a
+LOAD /home/huynhtai/Downloads/TOOLCHAIN/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libc_nano.a
+END GROUP
+START GROUP
+LOAD /home/huynhtai/Downloads/TOOLCHAIN/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a
+LOAD /home/huynhtai/Downloads/TOOLCHAIN/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libc_nano.a
+END GROUP
+                0x20020000                _estack = 0x20020000
+                0x00002000                _Min_Heap_Size = 0x2000
+                0x00004000                _Min_Stack_Size = 0x4000
+
+.isr_vector     0x08000000      0x188
+                0x08000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x188 startup_stm32f4xx.o
+                0x08000000                g_pfnVectors
+                0x08000188                . = ALIGN (0x4)
+
+.text           0x08000188     0x3394
+                0x08000188                . = ALIGN (0x4)
+ *(.text)
+ .text          0x08000188      0x1f0 sensor.o
+                0x08000188                sensorInit
+                0x0800026c                GET_Sensor
+                0x080002b0                EXTI_Handler
+                0x08000334                TIM_Handler
+ .text          0x08000378       0x74 startup_stm32f4xx.o
+                0x08000378                HASH_RNG_IRQHandler
+                0x08000378                EXTI2_IRQHandler
+                0x08000378                TIM8_CC_IRQHandler
+                0x08000378                DebugMon_Handler
+                0x08000378                TIM1_CC_IRQHandler
+                0x08000378                DMA2_Stream5_IRQHandler
+                0x08000378                DMA1_Stream5_IRQHandler
+                0x08000378                SysTick_Handler
+                0x08000378                PVD_IRQHandler
+                0x08000378                SDIO_IRQHandler
+                0x08000378                TAMP_STAMP_IRQHandler
+                0x08000378                PendSV_Handler
+                0x08000378                CAN2_RX1_IRQHandler
+                0x08000378                EXTI3_IRQHandler
+                0x08000378                TIM8_TRG_COM_TIM14_IRQHandler
+                0x08000378                TIM8_UP_TIM13_IRQHandler
+                0x08000378                I2C3_ER_IRQHandler
+                0x08000378                I2C2_EV_IRQHandler
+                0x08000378                DMA1_Stream2_IRQHandler
+                0x08000378                CAN1_RX0_IRQHandler
+                0x08000378                FPU_IRQHandler
+                0x08000378                OTG_HS_WKUP_IRQHandler
+                0x08000378                UsageFault_Handler
+                0x08000378                CAN2_SCE_IRQHandler
+                0x08000378                DMA2_Stream2_IRQHandler
+                0x08000378                SPI1_IRQHandler
+                0x08000378                TIM6_DAC_IRQHandler
+                0x08000378                TIM1_BRK_TIM9_IRQHandler
+                0x08000378                DCMI_IRQHandler
+                0x08000378                CAN2_RX0_IRQHandler
+                0x08000378                DMA2_Stream3_IRQHandler
+                0x08000378                USART6_IRQHandler
+                0x08000378                USART3_IRQHandler
+                0x08000378                CRYP_IRQHandler
+                0x08000378                CAN1_RX1_IRQHandler
+                0x08000378                UART5_IRQHandler
+                0x08000378                DMA2_Stream0_IRQHandler
+                0x08000378                TIM4_IRQHandler
+                0x08000378                I2C1_EV_IRQHandler
+                0x08000378                DMA1_Stream6_IRQHandler
+                0x08000378                DMA1_Stream1_IRQHandler
+                0x08000378                UART4_IRQHandler
+                0x08000378                TIM3_IRQHandler
+                0x08000378                RCC_IRQHandler
+                0x08000378                TIM8_BRK_TIM12_IRQHandler
+                0x08000378                Default_Handler
+                0x08000378                EXTI15_10_IRQHandler
+                0x08000378                ADC_IRQHandler
+                0x08000378                DMA1_Stream7_IRQHandler
+                0x08000378                TIM7_IRQHandler
+                0x08000378                CAN2_TX_IRQHandler
+                0x08000378                TIM5_IRQHandler
+                0x08000378                DMA2_Stream7_IRQHandler
+                0x08000378                I2C3_EV_IRQHandler
+                0x08000378                EXTI9_5_IRQHandler
+                0x08000378                ETH_WKUP_IRQHandler
+                0x08000378                SPI2_IRQHandler
+                0x08000378                OTG_HS_EP1_IN_IRQHandler
+                0x08000378                MemManage_Handler
+                0x08000378                DMA1_Stream0_IRQHandler
+                0x08000378                CAN1_TX_IRQHandler
+                0x08000378                SVC_Handler
+                0x08000378                EXTI4_IRQHandler
+                0x08000378                FSMC_IRQHandler
+                0x08000378                ETH_IRQHandler
+                0x08000378                OTG_HS_EP1_OUT_IRQHandler
+                0x08000378                WWDG_IRQHandler
+                0x08000378                TIM2_IRQHandler
+                0x08000378                OTG_FS_WKUP_IRQHandler
+                0x08000378                TIM1_TRG_COM_TIM11_IRQHandler
+                0x08000378                OTG_HS_IRQHandler
+                0x08000378                EXTI1_IRQHandler
+                0x08000378                I2C2_ER_IRQHandler
+                0x08000378                DMA2_Stream1_IRQHandler
+                0x08000378                CAN1_SCE_IRQHandler
+                0x08000378                FLASH_IRQHandler
+                0x08000378                DMA2_Stream4_IRQHandler
+                0x08000378                BusFault_Handler
+                0x08000378                USART1_IRQHandler
+                0x08000378                OTG_FS_IRQHandler
+                0x08000378                SPI3_IRQHandler
+                0x08000378                DMA1_Stream4_IRQHandler
+                0x08000378                I2C1_ER_IRQHandler
+                0x08000378                DMA2_Stream6_IRQHandler
+                0x08000378                DMA1_Stream3_IRQHandler
+                0x0800037c                Reset_Handler
+ .text          0x080003ec      0x3e4 main.o
+                0x080003ec                delay
+                0x08000404                init_GPIO
+                0x080006b8                GET_TIME_UART
+                0x08000758                GET_DISTANCE_USART
+                0x080007c8                EXTI0_IRQHandler
+                0x080007cc                TIM1_UP_TIM10_IRQHandler
+ .text          0x080007d0       0xc4 stm32f4xx_it.o
+                0x080007d0                NMI_Handler
+                0x080007d4                HardFault_Handler
+                0x080007f4                USART2_IRQHandler
+                0x08000818                RTC_WKUP_IRQHandler
+                0x0800083c                RTC_Alarm_IRQHandler
+ .text          0x08000894      0x164 system_stm32f4xx.o
+                0x08000894                SystemInit
+                0x08000984                SystemCoreClockUpdate
+ .text          0x080009f8      0x2a8 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_gpio.o)
+                0x080009f8                GPIO_DeInit
+                0x08000b54                GPIO_Init
+                0x08000bf8                GPIO_StructInit
+                0x08000c0c                GPIO_PinLockConfig
+                0x08000c30                GPIO_ReadInputDataBit
+                0x08000c3c                GPIO_ReadInputData
+                0x08000c44                GPIO_ReadOutputDataBit
+                0x08000c50                GPIO_ReadOutputData
+                0x08000c58                GPIO_SetBits
+                0x08000c5c                GPIO_ResetBits
+                0x08000c60                GPIO_WriteBit
+                0x08000c6c                GPIO_Write
+                0x08000c70                GPIO_ToggleBits
+                0x08000c78                GPIO_PinAFConfig
+ .text          0x08000ca0       0xbc /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(misc.o)
+                0x08000ca0                NVIC_PriorityGroupConfig
+                0x08000cb4                NVIC_Init
+                0x08000d18                NVIC_SetVectorTable
+                0x08000d2c                NVIC_SystemLPConfig
+                0x08000d44                SysTick_CLKSourceConfig
+ .text          0x08000d5c      0x4a4 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+                0x08000d5c                USART_DeInit
+                0x08000e68                USART_Init
+                0x08000f2c                USART_StructInit
+                0x08000f44                USART_ClockInit
+                0x08000f68                USART_ClockStructInit
+                0x08000f74                USART_Cmd
+                0x08000f90                USART_SetPrescaler
+                0x08000fa4                USART_OverSampling8Cmd
+                0x08000fc0                USART_OneBitMethodCmd
+                0x08000fdc                USART_SendData
+                0x08000ff4                USART_SendString
+                0x08001018                USART_ReceiveData
+                0x08001020                USART_SetAddress
+                0x08001038                USART_ReceiverWakeUpCmd
+                0x08001054                USART_WakeUpConfig
+                0x0800106c                USART_LINBreakDetectLengthConfig
+                0x08001084                USART_LINCmd
+                0x080010a0                USART_SendBreak
+                0x080010ac                USART_HalfDuplexCmd
+                0x080010c8                USART_SetGuardTime
+                0x080010dc                USART_SmartCardCmd
+                0x080010f8                USART_SmartCardNACKCmd
+                0x08001114                USART_IrDAConfig
+                0x0800112c                USART_IrDACmd
+                0x08001148                USART_DMACmd
+                0x0800115c                USART_ITConfig
+                0x08001194                USART_GetFlagStatus
+                0x080011a0                USART_ClearFlag
+                0x080011a8                USART_GetITStatus
+                0x080011f0                USART_ClearITPendingBit
+ .text          0x08001200       0xe8 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_exti.o)
+                0x08001200                EXTI_DeInit
+                0x0800121c                EXTI_Init
+                0x08001298                EXTI_StructInit
+                0x080012a8                EXTI_GenerateSWInterrupt
+                0x080012b8                EXTI_ClearFlag
+                0x080012c4                EXTI_GetITStatus
+                0x080012d8                EXTI_GetFlagStatus
+                0x080012dc                EXTI_ClearITPendingBit
+ .text          0x080012e8      0xcb0 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+                0x080012e8                RTC_StructInit
+                0x080012f4                RTC_WriteProtectionCmd
+                0x0800130c                RTC_EnterInitMode
+                0x08001350                RTC_Init
+                0x08001398                RTC_ExitInitMode
+                0x080013a8                RTC_WaitForSynchro
+                0x080013ec                RTC_DeInit
+                0x08001478                RTC_RefClockCmd
+                0x080014b8                RTC_BypassShadowCmd
+                0x080014e8                RTC_SetTime
+                0x080015dc                RTC_TimeStructInit
+                0x080015f4                RTC_GetTime
+                0x08001654                RTC_GetSubSecond
+                0x08001660                RTC_SetDate
+                0x08001744                RTC_DateStructInit
+                0x0800175c                RTC_GetDate
+                0x080017bc                RTC_SetAlarm
+                0x080018c4                RTC_AlarmStructInit
+                0x080018e0                RTC_GetAlarm
+                0x0800197c                RTC_AlarmCmd
+                0x080019d8                RTC_AlarmSubSecondConfig
+                0x08001a00                RTC_GetAlarmSubSecond
+                0x08001a18                RTC_WakeUpClockConfig
+                0x08001a3c                RTC_SetWakeUpCounter
+                0x08001a58                RTC_GetWakeUpCounter
+                0x08001a64                RTC_WakeUpCmd
+                0x08001abc                RTC_DayLightSavingConfig
+                0x08001ae4                RTC_GetStoreOperation
+                0x08001af4                RTC_OutputConfig
+                0x08001b1c                RTC_CoarseCalibConfig
+                0x08001b4c                RTC_CoarseCalibCmd
+                0x08001b8c                RTC_CalibOutputCmd
+                0x08001bbc                RTC_CalibOutputConfig
+                0x08001be0                RTC_SmoothCalibConfig
+                0x08001c2c                RTC_TimeStampCmd
+                0x08001c60                RTC_GetTimeStamp
+                0x08001d1c                RTC_GetTimeStampSubSecond
+                0x08001d28                RTC_TamperTriggerConfig
+                0x08001d44                RTC_TamperCmd
+                0x08001d60                RTC_TamperFilterConfig
+                0x08001d78                RTC_TamperSamplingFreqConfig
+                0x08001d90                RTC_TamperPinsPrechargeDuration
+                0x08001da8                RTC_TimeStampOnTamperDetectionCmd
+                0x08001dc4                RTC_TamperPullUpCmd
+                0x08001de0                RTC_WriteBackupRegister
+                0x08001e00                RTC_ReadBackupRegister
+                0x08001e20                RTC_TamperPinSelection
+                0x08001e38                RTC_TimeStampPinSelection
+                0x08001e50                RTC_OutputTypeConfig
+                0x08001e68                RTC_SynchroShiftConfig
+                0x08001ed0                RTC_ITConfig
+                0x08001f18                RTC_GetFlagStatus
+                0x08001f34                RTC_ClearFlag
+                0x08001f50                RTC_GetITStatus
+                0x08001f7c                RTC_ClearITPendingBit
+ .text          0x08001f98      0x14c /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_pwr.o)
+                0x08001f98                PWR_DeInit
+                0x08001fb4                PWR_BackupAccessCmd
+                0x08001fc0                PWR_PVDLevelConfig
+                0x08001fd4                PWR_PVDCmd
+                0x08001fe0                PWR_WakeUpPinCmd
+                0x08001fec                PWR_BackupRegulatorCmd
+                0x08001ff8                PWR_MainRegulatorModeConfig
+                0x0800200c                PWR_OverDriveCmd
+                0x08002018                PWR_OverDriveSWCmd
+                0x08002024                PWR_UnderDriveCmd
+                0x08002040                PWR_FlashPowerDownCmd
+                0x0800204c                PWR_EnterUnderDriveSTOPMode
+                0x08002088                PWR_EnterSTOPMode
+                0x0800208c                PWR_EnterSTANDBYMode
+                0x080020c0                PWR_GetFlagStatus
+                0x080020d4                PWR_ClearFlag
+ .text          0x080020e4      0x580 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+                0x080020e4                RCC_DeInit
+                0x08002134                RCC_HSEConfig
+                0x08002144                RCC_WaitForHSEStartUp
+                0x08002178                RCC_AdjustHSICalibrationValue
+                0x0800218c                RCC_HSICmd
+                0x08002198                RCC_LSEConfig
+                0x080021b8                RCC_LSICmd
+                0x080021c4                RCC_PLLConfig
+                0x080021e8                RCC_PLLCmd
+                0x080021f4                RCC_PLLI2SConfig
+                0x08002208                RCC_PLLI2SCmd
+                0x08002214                RCC_PLLSAIConfig
+                0x0800222c                RCC_PLLSAICmd
+                0x08002238                RCC_ClockSecuritySystemCmd
+                0x08002244                RCC_MCO1Config
+                0x08002258                RCC_MCO2Config
+                0x0800226c                RCC_SYSCLKConfig
+                0x08002280                RCC_GetSYSCLKSource
+                0x08002290                RCC_HCLKConfig
+                0x080022a4                RCC_PCLK1Config
+                0x080022b8                RCC_PCLK2Config
+                0x080022cc                RCC_GetClocksFreq
+                0x08002364                RCC_RTCCLKConfig
+                0x08002394                RCC_RTCCLKCmd
+                0x080023a0                RCC_BackupResetCmd
+                0x080023ac                RCC_I2SCLKConfig
+                0x080023b8                RCC_SAIPLLI2SClkDivConfig
+                0x080023d0                RCC_SAIPLLSAIClkDivConfig
+                0x080023ec                RCC_SAIBlockACLKConfig
+                0x08002404                RCC_SAIBlockBCLKConfig
+                0x0800241c                RCC_LTDCCLKDivConfig
+                0x08002434                RCC_TIMCLKPresConfig
+                0x08002440                RCC_AHB1PeriphClockCmd
+                0x0800245c                RCC_AHB2PeriphClockCmd
+                0x08002478                RCC_AHB3PeriphClockCmd
+                0x08002494                RCC_APB1PeriphClockCmd
+                0x080024b0                RCC_APB2PeriphClockCmd
+                0x080024cc                RCC_AHB1PeriphResetCmd
+                0x080024e8                RCC_AHB2PeriphResetCmd
+                0x08002504                RCC_AHB3PeriphResetCmd
+                0x08002520                RCC_APB1PeriphResetCmd
+                0x0800253c                RCC_APB2PeriphResetCmd
+                0x08002558                RCC_AHB1PeriphClockLPModeCmd
+                0x08002574                RCC_AHB2PeriphClockLPModeCmd
+                0x08002590                RCC_AHB3PeriphClockLPModeCmd
+                0x080025ac                RCC_APB1PeriphClockLPModeCmd
+                0x080025c8                RCC_APB2PeriphClockLPModeCmd
+                0x080025e4                RCC_ITConfig
+                0x08002600                RCC_GetFlagStatus
+                0x08002634                RCC_ClearFlag
+                0x08002644                RCC_GetITStatus
+                0x08002658                RCC_ClearITPendingBit
+ .text          0x08002664       0x88 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_syscfg.o)
+                0x08002664                SYSCFG_DeInit
+                0x08002680                SYSCFG_MemoryRemapConfig
+                0x0800268c                SYSCFG_MemorySwappingBank
+                0x08002698                SYSCFG_EXTILineConfig
+                0x080026c4                SYSCFG_ETH_MediaInterfaceConfig
+                0x080026d0                SYSCFG_CompensationCellCmd
+                0x080026dc                SYSCFG_GetCompensationCellStatus
+ .text          0x080026ec      0xdac /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+                0x080026ec                TIM_DeInit
+                0x080028a4                TIM_TimeBaseInit
+                0x0800293c                TIM_TimeBaseStructInit
+                0x08002950                TIM_PrescalerConfig
+                0x08002958                TIM_CounterModeConfig
+                0x08002968                TIM_SetCounter
+                0x0800296c                TIM_SetAutoreload
+                0x08002970                TIM_GetCounter
+                0x08002974                TIM_GetPrescaler
+                0x0800297c                TIM_UpdateDisableConfig
+                0x08002998                TIM_UpdateRequestConfig
+                0x080029b4                TIM_ARRPreloadConfig
+                0x080029d0                TIM_SelectOnePulseMode
+                0x080029e8                TIM_SetClockDivision
+                0x08002a00                TIM_Cmd
+                0x08002a1c                TIM_OC1Init
+                0x08002a9c                TIM_OC2Init
+                0x08002b2c                TIM_OC3Init
+                0x08002bb8                TIM_OC4Init
+                0x08002c2c                TIM_OCStructInit
+                0x08002c40                TIM_SelectOCxM
+                0x08002c8c                TIM_SetCompare1
+                0x08002c90                TIM_SetCompare2
+                0x08002c94                TIM_SetCompare3
+                0x08002c98                TIM_SetCompare4
+                0x08002c9c                TIM_ForcedOC1Config
+                0x08002cac                TIM_ForcedOC2Config
+                0x08002cc0                TIM_ForcedOC3Config
+                0x08002cd0                TIM_ForcedOC4Config
+                0x08002ce4                TIM_OC1PreloadConfig
+                0x08002cf4                TIM_OC2PreloadConfig
+                0x08002d08                TIM_OC3PreloadConfig
+                0x08002d18                TIM_OC4PreloadConfig
+                0x08002d2c                TIM_OC1FastConfig
+                0x08002d3c                TIM_OC2FastConfig
+                0x08002d50                TIM_OC3FastConfig
+                0x08002d60                TIM_OC4FastConfig
+                0x08002d74                TIM_ClearOC1Ref
+                0x08002d84                TIM_ClearOC2Ref
+                0x08002d94                TIM_ClearOC3Ref
+                0x08002da4                TIM_ClearOC4Ref
+                0x08002db4                TIM_OC1PolarityConfig
+                0x08002dc4                TIM_OC1NPolarityConfig
+                0x08002dd4                TIM_OC2PolarityConfig
+                0x08002de8                TIM_OC2NPolarityConfig
+                0x08002dfc                TIM_OC3PolarityConfig
+                0x08002e10                TIM_OC3NPolarityConfig
+                0x08002e24                TIM_OC4PolarityConfig
+                0x08002e38                TIM_CCxCmd
+                0x08002e58                TIM_CCxNCmd
+                0x08002e78                TIM_ICInit
+                0x08002fe0                TIM_ICStructInit
+                0x08002ff0                TIM_PWMIConfig
+                0x08003148                TIM_GetCapture1
+                0x0800314c                TIM_GetCapture2
+                0x08003150                TIM_GetCapture3
+                0x08003154                TIM_GetCapture4
+                0x08003158                TIM_SetIC1Prescaler
+                0x08003170                TIM_SetIC2Prescaler
+                0x0800318c                TIM_SetIC3Prescaler
+                0x080031a4                TIM_SetIC4Prescaler
+                0x080031c0                TIM_BDTRConfig
+                0x080031e8                TIM_BDTRStructInit
+                0x080031fc                TIM_CtrlPWMOutputs
+                0x0800321c                TIM_SelectCOM
+                0x08003238                TIM_CCPreloadControl
+                0x08003254                TIM_GenerateEvent
+                0x08003258                TIM_GetFlagStatus
+                0x08003264                TIM_ClearFlag
+                0x0800326c                TIM_GetITStatus
+                0x08003284                TIM_ClearITPendingBit
+                0x0800328c                TIM_DMAConfig
+                0x08003294                TIM_DMACmd
+                0x080032a8                TIM_ITConfig
+                0x080032ac                TIM_SelectCCDMA
+                0x080032c8                TIM_InternalClockConfig
+                0x080032d8                TIM_ITRxExternalClockConfig
+                0x080032f4                TIM_TIxExternalClockConfig
+                0x0800337c                TIM_ETRClockMode1Config
+                0x080033a4                TIM_ETRClockMode2Config
+                0x080033c4                TIM_SelectInputTrigger
+                0x080033d4                TIM_SelectOutputTrigger
+                0x080033ec                TIM_SelectSlaveMode
+                0x08003404                TIM_SelectMasterSlaveMode
+                0x0800341c                TIM_ETRConfig
+                0x08003434                TIM_EncoderInterfaceConfig
+                0x08003474                TIM_SelectHallSensor
+                0x08003490                TIM_RemapConfig
+ *(.text*)
+ .text.startup  0x08003498       0x80 main.o
+                0x08003498                main
+ *(.rodata)
+ *(.rodata*)
+ .rodata.str1.4
+                0x08003518        0x4 main.o
+                                  0x3 (size before relaxing)
+ *(.glue_7)
+ .glue_7        0x0800351c        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x0800351c        0x0 linker stubs
+ *(.eh_frame)
+ *(.init)
+ *(.fini)
+                0x0800351c                . = ALIGN (0x4)
+                0x0800351c                _etext = .
+                0x0800351c                _exit = .
+
+.vfp11_veneer   0x0800351c        0x0
+ .vfp11_veneer  0x0800351c        0x0 linker stubs
+
+.v4_bx          0x0800351c        0x0
+ .v4_bx         0x0800351c        0x0 linker stubs
+
+.iplt           0x0800351c        0x0
+ .iplt          0x0800351c        0x0 EEPROM.o
+
+.rel.dyn        0x0800351c        0x0
+ .rel.iplt      0x0800351c        0x0 EEPROM.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x0800351c        0x0
+                0x0800351c                __exidx_start = .
+ *(.ARM.exidx*)
+                0x0800351c                __exidx_end = .
+
+.preinit_array  0x0800351c        0x0
+                [!provide]                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                [!provide]                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x0800351c        0x0
+                [!provide]                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array*)
+                [!provide]                PROVIDE (__init_array_end, .)
+
+.fini_array     0x0800351c        0x0
+                [!provide]                PROVIDE (__fini_array_start, .)
+ *(.fini_array*)
+ *(SORT(.fini_array.*))
+                [!provide]                PROVIDE (__fini_array_end, .)
+                0x0800351c                __sidata = .
+
+.data           0x20000000       0x4c load address 0x0800351c
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _sdata = .
+                0x20000000                __data_start__ = _sdata
+ *(.data)
+ .data          0x20000000       0x26 main.o
+                0x20000000                huart2
+                0x20000004                RxBuffer
+                0x20000024                a
+ *fill*         0x20000026        0x2 
+ .data          0x20000028       0x14 system_stm32f4xx.o
+                0x20000028                AHBPrescTable
+                0x20000038                SystemCoreClock
+ .data          0x2000003c       0x10 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+ *(.data*)
+                0x2000004c                . = ALIGN (0x4)
+                0x2000004c                _edata = .
+                0x2000004c                __data_end__ = _edata
+
+.igot.plt       0x2000004c        0x0 load address 0x08003568
+ .igot.plt      0x2000004c        0x0 EEPROM.o
+                0x2000004c                . = ALIGN (0x4)
+
+.bss            0x2000004c       0x44 load address 0x08003568
+                0x2000004c                _sbss = .
+                0x2000004c                __bss_start__ = _sbss
+ *(.bss)
+ .bss           0x2000004c        0x1 sensor.o
+ *(.bss*)
+ *(COMMON)
+ *fill*         0x2000004d        0x3 
+ COMMON         0x20000050       0x28 sensor.o
+                0x20000050                state
+                0x20000054                GPIO_InitStructure
+                0x2000005c                NVIC_InitStructure
+                0x20000060                EXTI_InitStructure
+                0x20000068                dis
+                0x2000006c                TIM_TimeBaseInitStruct
+ COMMON         0x20000078       0x18 main.o
+                0x20000078                A
+                0x20000084                distance
+                0x20000086                c
+                0x20000088                GET_TIME
+                0x2000008c                msTicks
+                0x20000090                . = ALIGN (0x4)
+                0x20000090                _ebss = .
+                0x20000090                __bss_end__ = _ebss
+
+._user_heap_stack
+                0x20000090     0x6000 load address 0x080035ac
+                0x20000090                . = ALIGN (0x4)
+                [!provide]                PROVIDE (end, .)
+                [!provide]                PROVIDE (_end, .)
+                0x20002090                . = (. + _Min_Heap_Size)
+ *fill*         0x20000090     0x2000 
+                0x20006090                . = (. + _Min_Stack_Size)
+ *fill*         0x20002090     0x4000 
+                0x20006090                . = ALIGN (0x4)
+OUTPUT(/home/huynhtai/Downloads/STM32-master/stm32f4xx_example/build/blinky.elf elf32-littlearm)
+
+.debug_info     0x00000000     0x9b69
+ .debug_info    0x00000000      0xc77 sensor.o
+ .debug_info    0x00000c77      0x11f startup_stm32f4xx.o
+ .debug_info    0x00000d96     0x169d main.o
+ .debug_info    0x00002433      0x444 stm32f4xx_it.o
+ .debug_info    0x00002877      0x615 system_stm32f4xx.o
+ .debug_info    0x00002e8c      0x84a /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_gpio.o)
+ .debug_info    0x000036d6      0x542 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(misc.o)
+ .debug_info    0x00003c18      0xc5b /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+ .debug_info    0x00004873      0x305 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_exti.o)
+ .debug_info    0x00004b78     0x13d8 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+ .debug_info    0x00005f50      0x5db /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_pwr.o)
+ .debug_info    0x0000652b      0xed1 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+ .debug_info    0x000073fc      0x2dd /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_syscfg.o)
+ .debug_info    0x000076d9     0x2490 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+
+.debug_abbrev   0x00000000     0x1a38
+ .debug_abbrev  0x00000000      0x1d1 sensor.o
+ .debug_abbrev  0x000001d1       0xca startup_stm32f4xx.o
+ .debug_abbrev  0x0000029b      0x30b main.o
+ .debug_abbrev  0x000005a6      0x177 stm32f4xx_it.o
+ .debug_abbrev  0x0000071d      0x147 system_stm32f4xx.o
+ .debug_abbrev  0x00000864      0x1f5 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_gpio.o)
+ .debug_abbrev  0x00000a59      0x158 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(misc.o)
+ .debug_abbrev  0x00000bb1      0x25a /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+ .debug_abbrev  0x00000e0b      0x1b0 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_exti.o)
+ .debug_abbrev  0x00000fbb      0x267 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+ .debug_abbrev  0x00001222      0x1c1 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_pwr.o)
+ .debug_abbrev  0x000013e3      0x270 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+ .debug_abbrev  0x00001653      0x164 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_syscfg.o)
+ .debug_abbrev  0x000017b7      0x281 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+
+.debug_aranges  0x00000000      0x1c8
+ .debug_aranges
+                0x00000000       0x20 sensor.o
+ .debug_aranges
+                0x00000020       0x20 startup_stm32f4xx.o
+ .debug_aranges
+                0x00000040       0x28 main.o
+ .debug_aranges
+                0x00000068       0x20 stm32f4xx_it.o
+ .debug_aranges
+                0x00000088       0x20 system_stm32f4xx.o
+ .debug_aranges
+                0x000000a8       0x20 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_gpio.o)
+ .debug_aranges
+                0x000000c8       0x20 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(misc.o)
+ .debug_aranges
+                0x000000e8       0x20 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+ .debug_aranges
+                0x00000108       0x20 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_exti.o)
+ .debug_aranges
+                0x00000128       0x20 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+ .debug_aranges
+                0x00000148       0x20 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_pwr.o)
+ .debug_aranges
+                0x00000168       0x20 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+ .debug_aranges
+                0x00000188       0x20 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_syscfg.o)
+ .debug_aranges
+                0x000001a8       0x20 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+
+.debug_ranges   0x00000000      0x240
+ .debug_ranges  0x00000000       0x20 sensor.o
+ .debug_ranges  0x00000020       0x30 main.o
+ .debug_ranges  0x00000050       0x18 stm32f4xx_it.o
+ .debug_ranges  0x00000068       0x18 system_stm32f4xx.o
+ .debug_ranges  0x00000080       0x30 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+ .debug_ranges  0x000000b0       0xc8 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+ .debug_ranges  0x00000178       0x20 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+ .debug_ranges  0x00000198       0xa8 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+
+.debug_line     0x00000000     0x288a
+ .debug_line    0x00000000      0x256 sensor.o
+ .debug_line    0x00000256       0x64 startup_stm32f4xx.o
+ .debug_line    0x000002ba      0x324 main.o
+ .debug_line    0x000005de      0x1d3 stm32f4xx_it.o
+ .debug_line    0x000007b1      0x1d6 system_stm32f4xx.o
+ .debug_line    0x00000987      0x296 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_gpio.o)
+ .debug_line    0x00000c1d      0x1aa /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(misc.o)
+ .debug_line    0x00000dc7      0x378 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+ .debug_line    0x0000113f      0x1d1 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_exti.o)
+ .debug_line    0x00001310      0x72f /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+ .debug_line    0x00001a3f      0x21e /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_pwr.o)
+ .debug_line    0x00001c5d      0x337 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+ .debug_line    0x00001f94      0x1b4 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_syscfg.o)
+ .debug_line    0x00002148      0x742 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+
+.debug_str      0x00000000     0x32a9
+ .debug_str     0x00000000      0xc18 sensor.o
+                                0xc81 (size before relaxing)
+ .debug_str     0x00000c18       0xa5 startup_stm32f4xx.o
+                                0x16b (size before relaxing)
+ .debug_str     0x00000cbd      0x594 main.o
+                               0x1043 (size before relaxing)
+ .debug_str     0x00001251      0x10b stm32f4xx_it.o
+                                0x322 (size before relaxing)
+ .debug_str     0x0000135c      0x1c0 system_stm32f4xx.o
+                                0x3c0 (size before relaxing)
+ .debug_str     0x0000151c      0x13e /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_gpio.o)
+                                0x4b1 (size before relaxing)
+ .debug_str     0x0000165a      0x11d /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(misc.o)
+                                0x3ba (size before relaxing)
+ .debug_str     0x00001777      0x36d /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+                                0x6df (size before relaxing)
+ .debug_str     0x00001ae4       0x5a /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_exti.o)
+                                0x324 (size before relaxing)
+ .debug_str     0x00001b3e      0x5ea /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+                                0xb42 (size before relaxing)
+ .debug_str     0x00002128      0x167 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_pwr.o)
+                                0x3ce (size before relaxing)
+ .debug_str     0x0000228f      0x522 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+                                0x98f (size before relaxing)
+ .debug_str     0x000027b1      0x132 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_syscfg.o)
+                                0x31f (size before relaxing)
+ .debug_str     0x000028e3      0x9c6 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+                                0xddd (size before relaxing)
+
+.comment        0x00000000       0x6e
+ .comment       0x00000000       0x6e sensor.o
+                                 0x6f (size before relaxing)
+ .comment       0x0000006e       0x6f startup_stm32f4xx.o
+ .comment       0x0000006e       0x6f main.o
+ .comment       0x0000006e       0x6f stm32f4xx_it.o
+ .comment       0x0000006e       0x6f system_stm32f4xx.o
+ .comment       0x0000006e       0x6f /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_gpio.o)
+ .comment       0x0000006e       0x6f /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(misc.o)
+ .comment       0x0000006e       0x6f /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+ .comment       0x0000006e       0x6f /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_exti.o)
+ .comment       0x0000006e       0x6f /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+ .comment       0x0000006e       0x6f /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_pwr.o)
+ .comment       0x0000006e       0x6f /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+ .comment       0x0000006e       0x6f /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_syscfg.o)
+ .comment       0x0000006e       0x6f /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+
+.ARM.attributes
+                0x00000000       0x31
+ .ARM.attributes
+                0x00000000       0x33 sensor.o
+ .ARM.attributes
+                0x00000033       0x33 startup_stm32f4xx.o
+ .ARM.attributes
+                0x00000066       0x33 main.o
+ .ARM.attributes
+                0x00000099       0x33 stm32f4xx_it.o
+ .ARM.attributes
+                0x000000cc       0x33 system_stm32f4xx.o
+ .ARM.attributes
+                0x000000ff       0x33 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_gpio.o)
+ .ARM.attributes
+                0x00000132       0x33 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(misc.o)
+ .ARM.attributes
+                0x00000165       0x33 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+ .ARM.attributes
+                0x00000198       0x33 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_exti.o)
+ .ARM.attributes
+                0x000001cb       0x33 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+ .ARM.attributes
+                0x000001fe       0x33 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_pwr.o)
+ .ARM.attributes
+                0x00000231       0x33 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+ .ARM.attributes
+                0x00000264       0x33 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_syscfg.o)
+ .ARM.attributes
+                0x00000297       0x33 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+
+.debug_frame    0x00000000     0x1948
+ .debug_frame   0x00000000       0xa8 sensor.o
+ .debug_frame   0x000000a8       0x40 startup_stm32f4xx.o
+ .debug_frame   0x000000e8       0xcc main.o
+ .debug_frame   0x000001b4       0xfc stm32f4xx_it.o
+ .debug_frame   0x000002b0       0x3c system_stm32f4xx.o
+ .debug_frame   0x000002ec      0x174 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_gpio.o)
+ .debug_frame   0x00000460       0x70 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(misc.o)
+ .debug_frame   0x000004d0      0x284 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+ .debug_frame   0x00000754       0xb4 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_exti.o)
+ .debug_frame   0x00000808      0x50c /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+ .debug_frame   0x00000d14      0x128 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_pwr.o)
+ .debug_frame   0x00000e3c      0x37c /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+ .debug_frame   0x000011b8       0x98 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_syscfg.o)
+ .debug_frame   0x00001250      0x6f8 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+
+.debug_loc      0x00000000     0x57d7
+ .debug_loc     0x00000000       0x3e startup_stm32f4xx.o
+ .debug_loc     0x0000003e      0x296 main.o
+ .debug_loc     0x000002d4       0x1e stm32f4xx_it.o
+ .debug_loc     0x000002f2      0x13b system_stm32f4xx.o
+ .debug_loc     0x0000042d      0x3d2 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_gpio.o)
+ .debug_loc     0x000007ff      0x17c /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(misc.o)
+ .debug_loc     0x0000097b      0xa0f /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+ .debug_loc     0x0000138a      0x12d /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_exti.o)
+ .debug_loc     0x000014b7     0x1377 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+ .debug_loc     0x0000282e      0x167 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_pwr.o)
+ .debug_loc     0x00002995      0xd16 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+ .debug_loc     0x000036ab       0xa6 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_syscfg.o)
+ .debug_loc     0x00003751     0x2086 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+
+Cross Reference Table
+
+Symbol                                            File
+A                                                 main.o
+ADC_IRQHandler                                    startup_stm32f4xx.o
+AHBPrescTable                                     system_stm32f4xx.o
+BusFault_Handler                                  startup_stm32f4xx.o
+CAN1_RX0_IRQHandler                               startup_stm32f4xx.o
+CAN1_RX1_IRQHandler                               startup_stm32f4xx.o
+CAN1_SCE_IRQHandler                               startup_stm32f4xx.o
+CAN1_TX_IRQHandler                                startup_stm32f4xx.o
+CAN2_RX0_IRQHandler                               startup_stm32f4xx.o
+CAN2_RX1_IRQHandler                               startup_stm32f4xx.o
+CAN2_SCE_IRQHandler                               startup_stm32f4xx.o
+CAN2_TX_IRQHandler                                startup_stm32f4xx.o
+CRYP_IRQHandler                                   startup_stm32f4xx.o
+DCMI_IRQHandler                                   startup_stm32f4xx.o
+DMA1_Stream0_IRQHandler                           startup_stm32f4xx.o
+DMA1_Stream1_IRQHandler                           startup_stm32f4xx.o
+DMA1_Stream2_IRQHandler                           startup_stm32f4xx.o
+DMA1_Stream3_IRQHandler                           startup_stm32f4xx.o
+DMA1_Stream4_IRQHandler                           startup_stm32f4xx.o
+DMA1_Stream5_IRQHandler                           startup_stm32f4xx.o
+DMA1_Stream6_IRQHandler                           startup_stm32f4xx.o
+DMA1_Stream7_IRQHandler                           startup_stm32f4xx.o
+DMA2_Stream0_IRQHandler                           startup_stm32f4xx.o
+DMA2_Stream1_IRQHandler                           startup_stm32f4xx.o
+DMA2_Stream2_IRQHandler                           startup_stm32f4xx.o
+DMA2_Stream3_IRQHandler                           startup_stm32f4xx.o
+DMA2_Stream4_IRQHandler                           startup_stm32f4xx.o
+DMA2_Stream5_IRQHandler                           startup_stm32f4xx.o
+DMA2_Stream6_IRQHandler                           startup_stm32f4xx.o
+DMA2_Stream7_IRQHandler                           startup_stm32f4xx.o
+DebugMon_Handler                                  startup_stm32f4xx.o
+Default_Handler                                   startup_stm32f4xx.o
+EEPROM_DeInit                                     EEPROM.o
+EEPROM_Init                                       EEPROM.o
+EEPROM_ReadByte                                   EEPROM.o
+EEPROM_WriteByte                                  EEPROM.o
+ETH_IRQHandler                                    startup_stm32f4xx.o
+ETH_WKUP_IRQHandler                               startup_stm32f4xx.o
+EXTI0_IRQHandler                                  main.o
+                                                  startup_stm32f4xx.o
+EXTI15_10_IRQHandler                              startup_stm32f4xx.o
+EXTI1_IRQHandler                                  startup_stm32f4xx.o
+EXTI2_IRQHandler                                  startup_stm32f4xx.o
+EXTI3_IRQHandler                                  startup_stm32f4xx.o
+EXTI4_IRQHandler                                  startup_stm32f4xx.o
+EXTI9_5_IRQHandler                                startup_stm32f4xx.o
+EXTI_ClearFlag                                    /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_exti.o)
+EXTI_ClearITPendingBit                            /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_exti.o)
+                                                  stm32f4xx_it.o
+                                                  main.o
+                                                  sensor.o
+EXTI_DeInit                                       /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_exti.o)
+EXTI_GenerateSWInterrupt                          /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_exti.o)
+EXTI_GetFlagStatus                                /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_exti.o)
+EXTI_GetITStatus                                  /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_exti.o)
+                                                  sensor.o
+EXTI_Handler                                      sensor.o
+                                                  main.o
+EXTI_Init                                         /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_exti.o)
+                                                  main.o
+                                                  sensor.o
+EXTI_InitStructure                                sensor.o
+EXTI_StructInit                                   /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_exti.o)
+FLASH_ClearFlag                                   /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+                                                  EEPROM.o
+FLASH_DataCacheCmd                                /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+FLASH_DataCacheReset                              /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+FLASH_EraseAllBank1Sectors                        /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+FLASH_EraseAllBank2Sectors                        /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+FLASH_EraseAllSectors                             /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+FLASH_EraseSector                                 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+                                                  EEPROM.o
+FLASH_GetFlagStatus                               /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+FLASH_GetStatus                                   /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+FLASH_IRQHandler                                  startup_stm32f4xx.o
+FLASH_ITConfig                                    /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+FLASH_InstructionCacheCmd                         /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+FLASH_InstructionCacheReset                       /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+FLASH_Lock                                        /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+                                                  EEPROM.o
+FLASH_OB_BORConfig                                /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+FLASH_OB_BootConfig                               /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+FLASH_OB_GetBOR                                   /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+FLASH_OB_GetPCROP                                 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+FLASH_OB_GetPCROP1                                /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+FLASH_OB_GetRDP                                   /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+FLASH_OB_GetUser                                  /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+FLASH_OB_GetWRP                                   /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+FLASH_OB_GetWRP1                                  /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+FLASH_OB_Launch                                   /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+FLASH_OB_Lock                                     /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+FLASH_OB_PCROP1Config                             /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+FLASH_OB_PCROPConfig                              /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+FLASH_OB_PCROPSelectionConfig                     /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+FLASH_OB_RDPConfig                                /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+FLASH_OB_Unlock                                   /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+FLASH_OB_UserConfig                               /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+FLASH_OB_WRP1Config                               /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+FLASH_OB_WRPConfig                                /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+FLASH_PrefetchBufferCmd                           /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+FLASH_ProgramByte                                 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+FLASH_ProgramDoubleWord                           /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+FLASH_ProgramHalfWord                             /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+                                                  EEPROM.o
+FLASH_ProgramWord                                 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+FLASH_SetLatency                                  /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+FLASH_Unlock                                      /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+                                                  EEPROM.o
+FLASH_WaitForLastOperation                        /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_flash.o)
+FPU_IRQHandler                                    startup_stm32f4xx.o
+FSMC_IRQHandler                                   startup_stm32f4xx.o
+GET_DISTANCE_USART                                main.o
+GET_Sensor                                        sensor.o
+GET_TIME                                          main.o
+GET_TIME_UART                                     main.o
+GPIO_DeInit                                       /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_gpio.o)
+GPIO_Init                                         /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_gpio.o)
+                                                  main.o
+                                                  sensor.o
+GPIO_InitStructure                                sensor.o
+GPIO_PinAFConfig                                  /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_gpio.o)
+                                                  main.o
+GPIO_PinLockConfig                                /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_gpio.o)
+GPIO_ReadInputData                                /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_gpio.o)
+GPIO_ReadInputDataBit                             /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_gpio.o)
+GPIO_ReadOutputData                               /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_gpio.o)
+GPIO_ReadOutputDataBit                            /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_gpio.o)
+GPIO_ResetBits                                    /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_gpio.o)
+GPIO_SetBits                                      /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_gpio.o)
+GPIO_StructInit                                   /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_gpio.o)
+GPIO_ToggleBits                                   /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_gpio.o)
+                                                  sensor.o
+GPIO_Write                                        /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_gpio.o)
+GPIO_WriteBit                                     /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_gpio.o)
+                                                  main.o
+                                                  sensor.o
+HASH_RNG_IRQHandler                               startup_stm32f4xx.o
+HardFault_Handler                                 stm32f4xx_it.o
+                                                  startup_stm32f4xx.o
+I2C1_ER_IRQHandler                                startup_stm32f4xx.o
+I2C1_EV_IRQHandler                                startup_stm32f4xx.o
+I2C2_ER_IRQHandler                                startup_stm32f4xx.o
+I2C2_EV_IRQHandler                                startup_stm32f4xx.o
+I2C3_ER_IRQHandler                                startup_stm32f4xx.o
+I2C3_EV_IRQHandler                                startup_stm32f4xx.o
+MemManage_Handler                                 startup_stm32f4xx.o
+NMI_Handler                                       stm32f4xx_it.o
+                                                  startup_stm32f4xx.o
+NVIC_Init                                         /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(misc.o)
+                                                  main.o
+                                                  sensor.o
+NVIC_InitStructure                                sensor.o
+NVIC_PriorityGroupConfig                          /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(misc.o)
+NVIC_SetVectorTable                               /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(misc.o)
+NVIC_SystemLPConfig                               /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(misc.o)
+OTG_FS_IRQHandler                                 startup_stm32f4xx.o
+OTG_FS_WKUP_IRQHandler                            startup_stm32f4xx.o
+OTG_HS_EP1_IN_IRQHandler                          startup_stm32f4xx.o
+OTG_HS_EP1_OUT_IRQHandler                         startup_stm32f4xx.o
+OTG_HS_IRQHandler                                 startup_stm32f4xx.o
+OTG_HS_WKUP_IRQHandler                            startup_stm32f4xx.o
+PVD_IRQHandler                                    startup_stm32f4xx.o
+PWR_BackupAccessCmd                               /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_pwr.o)
+                                                  main.o
+PWR_BackupRegulatorCmd                            /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_pwr.o)
+PWR_ClearFlag                                     /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_pwr.o)
+PWR_DeInit                                        /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_pwr.o)
+                                                  main.o
+PWR_EnterSTANDBYMode                              /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_pwr.o)
+PWR_EnterSTOPMode                                 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_pwr.o)
+PWR_EnterUnderDriveSTOPMode                       /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_pwr.o)
+PWR_FlashPowerDownCmd                             /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_pwr.o)
+PWR_GetFlagStatus                                 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_pwr.o)
+PWR_MainRegulatorModeConfig                       /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_pwr.o)
+PWR_OverDriveCmd                                  /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_pwr.o)
+PWR_OverDriveSWCmd                                /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_pwr.o)
+PWR_PVDCmd                                        /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_pwr.o)
+PWR_PVDLevelConfig                                /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_pwr.o)
+PWR_UnderDriveCmd                                 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_pwr.o)
+PWR_WakeUpPinCmd                                  /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_pwr.o)
+PendSV_Handler                                    startup_stm32f4xx.o
+RCC_AHB1PeriphClockCmd                            /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+                                                  main.o
+                                                  sensor.o
+RCC_AHB1PeriphClockLPModeCmd                      /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_AHB1PeriphResetCmd                            /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+                                                  /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_gpio.o)
+RCC_AHB2PeriphClockCmd                            /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_AHB2PeriphClockLPModeCmd                      /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_AHB2PeriphResetCmd                            /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_AHB3PeriphClockCmd                            /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_AHB3PeriphClockLPModeCmd                      /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_AHB3PeriphResetCmd                            /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_APB1PeriphClockCmd                            /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+                                                  main.o
+RCC_APB1PeriphClockLPModeCmd                      /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_APB1PeriphResetCmd                            /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+                                                  /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+                                                  /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_pwr.o)
+                                                  /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+RCC_APB2PeriphClockCmd                            /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+                                                  main.o
+                                                  sensor.o
+RCC_APB2PeriphClockLPModeCmd                      /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_APB2PeriphResetCmd                            /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+                                                  /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+                                                  /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_syscfg.o)
+                                                  /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+RCC_AdjustHSICalibrationValue                     /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_BackupResetCmd                                /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_ClearFlag                                     /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_ClearITPendingBit                             /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_ClockSecuritySystemCmd                        /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_DeInit                                        /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_GetClocksFreq                                 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+                                                  /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+RCC_GetFlagStatus                                 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+                                                  main.o
+RCC_GetITStatus                                   /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_GetSYSCLKSource                               /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_HCLKConfig                                    /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_HSEConfig                                     /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_HSICmd                                        /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_I2SCLKConfig                                  /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_IRQHandler                                    startup_stm32f4xx.o
+RCC_ITConfig                                      /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_LSEConfig                                     /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_LSICmd                                        /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+                                                  main.o
+RCC_LTDCCLKDivConfig                              /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_MCO1Config                                    /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_MCO2Config                                    /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_PCLK1Config                                   /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_PCLK2Config                                   /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_PLLCmd                                        /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_PLLConfig                                     /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_PLLI2SCmd                                     /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_PLLI2SConfig                                  /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_PLLSAICmd                                     /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_PLLSAIConfig                                  /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_RTCCLKCmd                                     /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+                                                  main.o
+RCC_RTCCLKConfig                                  /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+                                                  main.o
+RCC_SAIBlockACLKConfig                            /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_SAIBlockBCLKConfig                            /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_SAIPLLI2SClkDivConfig                         /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_SAIPLLSAIClkDivConfig                         /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_SYSCLKConfig                                  /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_TIMCLKPresConfig                              /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RCC_WaitForHSEStartUp                             /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rcc.o)
+RTC_AlarmCmd                                      /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+                                                  main.o
+RTC_AlarmStructInit                               /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+                                                  main.o
+RTC_AlarmSubSecondConfig                          /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+RTC_Alarm_IRQHandler                              stm32f4xx_it.o
+                                                  startup_stm32f4xx.o
+RTC_BypassShadowCmd                               /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+RTC_CalibOutputCmd                                /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+RTC_CalibOutputConfig                             /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+RTC_ClearFlag                                     /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+                                                  stm32f4xx_it.o
+                                                  main.o
+RTC_ClearITPendingBit                             /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+                                                  stm32f4xx_it.o
+RTC_CoarseCalibCmd                                /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+RTC_CoarseCalibConfig                             /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+RTC_DateStructInit                                /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+                                                  main.o
+RTC_DayLightSavingConfig                          /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+RTC_DeInit                                        /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+                                                  main.o
+RTC_EnterInitMode                                 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+                                                  main.o
+RTC_ExitInitMode                                  /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+RTC_GetAlarm                                      /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+RTC_GetAlarmSubSecond                             /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+RTC_GetDate                                       /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+RTC_GetFlagStatus                                 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+RTC_GetITStatus                                   /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+                                                  stm32f4xx_it.o
+RTC_GetStoreOperation                             /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+RTC_GetSubSecond                                  /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+RTC_GetTime                                       /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+                                                  main.o
+RTC_GetTimeStamp                                  /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+RTC_GetTimeStampSubSecond                         /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+RTC_GetWakeUpCounter                              /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+RTC_ITConfig                                      /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+                                                  main.o
+RTC_Init                                          /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+                                                  main.o
+RTC_OutputConfig                                  /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+RTC_OutputTypeConfig                              /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+RTC_ReadBackupRegister                            /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+RTC_RefClockCmd                                   /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+RTC_SetAlarm                                      /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+                                                  main.o
+RTC_SetDate                                       /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+                                                  main.o
+RTC_SetTime                                       /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+                                                  main.o
+RTC_SetWakeUpCounter                              /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+                                                  main.o
+RTC_SmoothCalibConfig                             /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+RTC_StructInit                                    /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+                                                  main.o
+RTC_SynchroShiftConfig                            /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+RTC_TamperCmd                                     /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+RTC_TamperFilterConfig                            /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+RTC_TamperPinSelection                            /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+RTC_TamperPinsPrechargeDuration                   /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+RTC_TamperPullUpCmd                               /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+RTC_TamperSamplingFreqConfig                      /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+RTC_TamperTriggerConfig                           /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+RTC_TimeStampCmd                                  /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+RTC_TimeStampOnTamperDetectionCmd                 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+RTC_TimeStampPinSelection                         /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+RTC_TimeStructInit                                /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+                                                  main.o
+RTC_WKUP_IRQHandler                               stm32f4xx_it.o
+                                                  startup_stm32f4xx.o
+RTC_WaitForSynchro                                /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+                                                  main.o
+RTC_WakeUpClockConfig                             /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+                                                  main.o
+RTC_WakeUpCmd                                     /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+                                                  main.o
+RTC_WriteBackupRegister                           /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+RTC_WriteProtectionCmd                            /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_rtc.o)
+                                                  main.o
+Reset_Handler                                     startup_stm32f4xx.o
+RxBuffer                                          main.o
+SDIO_IRQHandler                                   startup_stm32f4xx.o
+SPI1_IRQHandler                                   startup_stm32f4xx.o
+SPI2_IRQHandler                                   startup_stm32f4xx.o
+SPI3_IRQHandler                                   startup_stm32f4xx.o
+SVC_Handler                                       startup_stm32f4xx.o
+SYSCFG_CompensationCellCmd                        /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_syscfg.o)
+SYSCFG_DeInit                                     /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_syscfg.o)
+SYSCFG_ETH_MediaInterfaceConfig                   /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_syscfg.o)
+SYSCFG_EXTILineConfig                             /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_syscfg.o)
+                                                  sensor.o
+SYSCFG_GetCompensationCellStatus                  /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_syscfg.o)
+SYSCFG_MemoryRemapConfig                          /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_syscfg.o)
+SYSCFG_MemorySwappingBank                         /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_syscfg.o)
+SysTick_CLKSourceConfig                           /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(misc.o)
+SysTick_Handler                                   startup_stm32f4xx.o
+SystemCoreClock                                   system_stm32f4xx.o
+SystemCoreClockUpdate                             system_stm32f4xx.o
+SystemInit                                        system_stm32f4xx.o
+                                                  main.o
+                                                  startup_stm32f4xx.o
+TAMP_STAMP_IRQHandler                             startup_stm32f4xx.o
+TIM1_BRK_TIM9_IRQHandler                          startup_stm32f4xx.o
+TIM1_CC_IRQHandler                                startup_stm32f4xx.o
+TIM1_TRG_COM_TIM11_IRQHandler                     startup_stm32f4xx.o
+TIM1_UP_TIM10_IRQHandler                          main.o
+                                                  startup_stm32f4xx.o
+TIM2_IRQHandler                                   startup_stm32f4xx.o
+TIM3_IRQHandler                                   startup_stm32f4xx.o
+TIM4_IRQHandler                                   startup_stm32f4xx.o
+TIM5_IRQHandler                                   startup_stm32f4xx.o
+TIM6_DAC_IRQHandler                               startup_stm32f4xx.o
+TIM7_IRQHandler                                   startup_stm32f4xx.o
+TIM8_BRK_TIM12_IRQHandler                         startup_stm32f4xx.o
+TIM8_CC_IRQHandler                                startup_stm32f4xx.o
+TIM8_TRG_COM_TIM14_IRQHandler                     startup_stm32f4xx.o
+TIM8_UP_TIM13_IRQHandler                          startup_stm32f4xx.o
+TIM_ARRPreloadConfig                              /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_BDTRConfig                                    /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_BDTRStructInit                                /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_CCPreloadControl                              /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_CCxCmd                                        /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_CCxNCmd                                       /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_ClearFlag                                     /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_ClearITPendingBit                             /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+                                                  sensor.o
+TIM_ClearOC1Ref                                   /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_ClearOC2Ref                                   /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_ClearOC3Ref                                   /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_ClearOC4Ref                                   /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_Cmd                                           /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+                                                  sensor.o
+TIM_CounterModeConfig                             /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_CtrlPWMOutputs                                /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_DMACmd                                        /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_DMAConfig                                     /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_DeInit                                        /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+                                                  sensor.o
+TIM_ETRClockMode1Config                           /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_ETRClockMode2Config                           /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_ETRConfig                                     /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_EncoderInterfaceConfig                        /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_ForcedOC1Config                               /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_ForcedOC2Config                               /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_ForcedOC3Config                               /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_ForcedOC4Config                               /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_GenerateEvent                                 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_GetCapture1                                   /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_GetCapture2                                   /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_GetCapture3                                   /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_GetCapture4                                   /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_GetCounter                                    /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_GetFlagStatus                                 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_GetITStatus                                   /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+                                                  sensor.o
+TIM_GetPrescaler                                  /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_Handler                                       sensor.o
+TIM_ICInit                                        /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_ICStructInit                                  /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_ITConfig                                      /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+                                                  sensor.o
+TIM_ITRxExternalClockConfig                       /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_InternalClockConfig                           /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC1FastConfig                                 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC1Init                                       /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC1NPolarityConfig                            /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC1PolarityConfig                             /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC1PreloadConfig                              /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC2FastConfig                                 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC2Init                                       /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC2NPolarityConfig                            /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC2PolarityConfig                             /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC2PreloadConfig                              /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC3FastConfig                                 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC3Init                                       /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC3NPolarityConfig                            /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC3PolarityConfig                             /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC3PreloadConfig                              /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC4FastConfig                                 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC4Init                                       /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC4PolarityConfig                             /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_OC4PreloadConfig                              /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_OCStructInit                                  /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_PWMIConfig                                    /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_PrescalerConfig                               /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_RemapConfig                                   /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_SelectCCDMA                                   /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_SelectCOM                                     /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_SelectHallSensor                              /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_SelectInputTrigger                            /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_SelectMasterSlaveMode                         /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_SelectOCxM                                    /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_SelectOnePulseMode                            /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_SelectOutputTrigger                           /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_SelectSlaveMode                               /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_SetAutoreload                                 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_SetClockDivision                              /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_SetCompare1                                   /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_SetCompare2                                   /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_SetCompare3                                   /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_SetCompare4                                   /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_SetCounter                                    /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+                                                  sensor.o
+TIM_SetIC1Prescaler                               /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_SetIC2Prescaler                               /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_SetIC3Prescaler                               /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_SetIC4Prescaler                               /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_TIxExternalClockConfig                        /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_TimeBaseInit                                  /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+                                                  sensor.o
+TIM_TimeBaseInitStruct                            sensor.o
+TIM_TimeBaseStructInit                            /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_UpdateDisableConfig                           /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+TIM_UpdateRequestConfig                           /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_tim.o)
+UART4_IRQHandler                                  startup_stm32f4xx.o
+UART5_IRQHandler                                  startup_stm32f4xx.o
+USART1_IRQHandler                                 startup_stm32f4xx.o
+USART2_IRQHandler                                 stm32f4xx_it.o
+                                                  startup_stm32f4xx.o
+USART3_IRQHandler                                 startup_stm32f4xx.o
+USART6_IRQHandler                                 startup_stm32f4xx.o
+USART_ClearFlag                                   /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+USART_ClearITPendingBit                           /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+USART_ClockInit                                   /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+USART_ClockStructInit                             /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+USART_Cmd                                         /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+                                                  main.o
+USART_DMACmd                                      /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+                                                  main.o
+USART_DeInit                                      /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+                                                  main.o
+USART_GetFlagStatus                               /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+                                                  stm32f4xx_it.o
+USART_GetITStatus                                 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+USART_HalfDuplexCmd                               /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+USART_ITConfig                                    /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+                                                  main.o
+USART_Init                                        /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+                                                  main.o
+USART_IrDACmd                                     /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+USART_IrDAConfig                                  /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+USART_LINBreakDetectLengthConfig                  /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+                                                  main.o
+USART_LINCmd                                      /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+                                                  main.o
+USART_OneBitMethodCmd                             /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+USART_OverSampling8Cmd                            /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+USART_ReceiveData                                 /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+                                                  stm32f4xx_it.o
+USART_ReceiverWakeUpCmd                           /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+USART_SendBreak                                   /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+USART_SendData                                    /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+                                                  stm32f4xx_it.o
+                                                  main.o
+USART_SendString                                  /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+                                                  main.o
+USART_SetAddress                                  /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+USART_SetGuardTime                                /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+USART_SetPrescaler                                /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+USART_SmartCardCmd                                /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+USART_SmartCardNACKCmd                            /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+USART_StructInit                                  /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+USART_WakeUpConfig                                /home/huynhtai/Downloads/STM32-master/stm32f4xx_example/stdperiph.a(stm32f4xx_usart.o)
+UsageFault_Handler                                startup_stm32f4xx.o
+WWDG_IRQHandler                                   startup_stm32f4xx.o
+__bss_end__                                       startup_stm32f4xx.o
+__bss_start__                                     startup_stm32f4xx.o
+__data_end__                                      startup_stm32f4xx.o
+__data_start__                                    startup_stm32f4xx.o
+__sidata                                          startup_stm32f4xx.o
+_estack                                           startup_stm32f4xx.o
+a                                                 main.o
+b                                                 main.o
+c                                                 main.o
+delay                                             main.o
+dis                                               sensor.o
+distance                                          main.o
+g_pfnVectors                                      startup_stm32f4xx.o
+huart2                                            main.o
+init_GPIO                                         main.o
+main                                              main.o
+                                                  startup_stm32f4xx.o
+msTicks                                           main.o
+sensorInit                                        sensor.o
+state                                             sensor.o
+turnOffLED                                        CortexM4asmOps.o
+turnOnLED                                         CortexM4asmOps.o
